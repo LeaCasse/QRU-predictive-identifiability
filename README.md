@@ -35,4 +35,4 @@ python reproduce.py detectability
 python reproduce.py finite-alternatives
 ```
 
-`streams` uses all 32 paired seeds (1300–1331), ten scenarios and the real-data replay. `real` runs only the chronological Sunspots/Nile forecasts. Each trial uses three query policies and horizons 1 and 5. The figures can be rebuilt directly from the included results.
+`streams` uses all 32 paired seeds (1300-1331), ten scenarios and the real-data replay. `real` runs only the chronological Sunspots/Nile forecasts. Each trial uses three query policies and horizons 1 and 5. The figures can be rebuilt directly from the included results.
