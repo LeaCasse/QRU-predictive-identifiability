@@ -1,0 +1,1652 @@
+{
+  "sunspots": {
+    "source_url": "https://raw.githubusercontent.com/statsmodels/statsmodels/v0.14.4/statsmodels/datasets/sunspots/sunspots.csv",
+    "sha256": "f67889b1d9002cd5227f0e0ef54e35b419cdd85a31279adef6f73fb41e5c0a9b",
+    "metadata_url": "https://raw.githubusercontent.com/statsmodels/statsmodels/v0.14.4/statsmodels/datasets/sunspots/data.py",
+    "rows": [
+      {
+        "YEAR": "1700",
+        "SUNACTIVITY": "5"
+      },
+      {
+        "YEAR": "1701",
+        "SUNACTIVITY": "11"
+      },
+      {
+        "YEAR": "1702",
+        "SUNACTIVITY": "16"
+      },
+      {
+        "YEAR": "1703",
+        "SUNACTIVITY": "23"
+      },
+      {
+        "YEAR": "1704",
+        "SUNACTIVITY": "36"
+      },
+      {
+        "YEAR": "1705",
+        "SUNACTIVITY": "58"
+      },
+      {
+        "YEAR": "1706",
+        "SUNACTIVITY": "29"
+      },
+      {
+        "YEAR": "1707",
+        "SUNACTIVITY": "20"
+      },
+      {
+        "YEAR": "1708",
+        "SUNACTIVITY": "10"
+      },
+      {
+        "YEAR": "1709",
+        "SUNACTIVITY": "8"
+      },
+      {
+        "YEAR": "1710",
+        "SUNACTIVITY": "3"
+      },
+      {
+        "YEAR": "1711",
+        "SUNACTIVITY": "0"
+      },
+      {
+        "YEAR": "1712",
+        "SUNACTIVITY": "0"
+      },
+      {
+        "YEAR": "1713",
+        "SUNACTIVITY": "2"
+      },
+      {
+        "YEAR": "1714",
+        "SUNACTIVITY": "11"
+      },
+      {
+        "YEAR": "1715",
+        "SUNACTIVITY": "27"
+      },
+      {
+        "YEAR": "1716",
+        "SUNACTIVITY": "47"
+      },
+      {
+        "YEAR": "1717",
+        "SUNACTIVITY": "63"
+      },
+      {
+        "YEAR": "1718",
+        "SUNACTIVITY": "60"
+      },
+      {
+        "YEAR": "1719",
+        "SUNACTIVITY": "39"
+      },
+      {
+        "YEAR": "1720",
+        "SUNACTIVITY": "28"
+      },
+      {
+        "YEAR": "1721",
+        "SUNACTIVITY": "26"
+      },
+      {
+        "YEAR": "1722",
+        "SUNACTIVITY": "22"
+      },
+      {
+        "YEAR": "1723",
+        "SUNACTIVITY": "11"
+      },
+      {
+        "YEAR": "1724",
+        "SUNACTIVITY": "21"
+      },
+      {
+        "YEAR": "1725",
+        "SUNACTIVITY": "40"
+      },
+      {
+        "YEAR": "1726",
+        "SUNACTIVITY": "78"
+      },
+      {
+        "YEAR": "1727",
+        "SUNACTIVITY": "122"
+      },
+      {
+        "YEAR": "1728",
+        "SUNACTIVITY": "103"
+      },
+      {
+        "YEAR": "1729",
+        "SUNACTIVITY": "73"
+      },
+      {
+        "YEAR": "1730",
+        "SUNACTIVITY": "47"
+      },
+      {
+        "YEAR": "1731",
+        "SUNACTIVITY": "35"
+      },
+      {
+        "YEAR": "1732",
+        "SUNACTIVITY": "11"
+      },
+      {
+        "YEAR": "1733",
+        "SUNACTIVITY": "5"
+      },
+      {
+        "YEAR": "1734",
+        "SUNACTIVITY": "16"
+      },
+      {
+        "YEAR": "1735",
+        "SUNACTIVITY": "34"
+      },
+      {
+        "YEAR": "1736",
+        "SUNACTIVITY": "70"
+      },
+      {
+        "YEAR": "1737",
+        "SUNACTIVITY": "81"
+      },
+      {
+        "YEAR": "1738",
+        "SUNACTIVITY": "111"
+      },
+      {
+        "YEAR": "1739",
+        "SUNACTIVITY": "101"
+      },
+      {
+        "YEAR": "1740",
+        "SUNACTIVITY": "73"
+      },
+      {
+        "YEAR": "1741",
+        "SUNACTIVITY": "40"
+      },
+      {
+        "YEAR": "1742",
+        "SUNACTIVITY": "20"
+      },
+      {
+        "YEAR": "1743",
+        "SUNACTIVITY": "16"
+      },
+      {
+        "YEAR": "1744",
+        "SUNACTIVITY": "5"
+      },
+      {
+        "YEAR": "1745",
+        "SUNACTIVITY": "11"
+      },
+      {
+        "YEAR": "1746",
+        "SUNACTIVITY": "22"
+      },
+      {
+        "YEAR": "1747",
+        "SUNACTIVITY": "40"
+      },
+      {
+        "YEAR": "1748",
+        "SUNACTIVITY": "60"
+      },
+      {
+        "YEAR": "1749",
+        "SUNACTIVITY": "80.9"
+      },
+      {
+        "YEAR": "1750",
+        "SUNACTIVITY": "83.4"
+      },
+      {
+        "YEAR": "1751",
+        "SUNACTIVITY": "47.7"
+      },
+      {
+        "YEAR": "1752",
+        "SUNACTIVITY": "47.8"
+      },
+      {
+        "YEAR": "1753",
+        "SUNACTIVITY": "30.7"
+      },
+      {
+        "YEAR": "1754",
+        "SUNACTIVITY": "12.2"
+      },
+      {
+        "YEAR": "1755",
+        "SUNACTIVITY": "9.6"
+      },
+      {
+        "YEAR": "1756",
+        "SUNACTIVITY": "10.2"
+      },
+      {
+        "YEAR": "1757",
+        "SUNACTIVITY": "32.4"
+      },
+      {
+        "YEAR": "1758",
+        "SUNACTIVITY": "47.6"
+      },
+      {
+        "YEAR": "1759",
+        "SUNACTIVITY": "54"
+      },
+      {
+        "YEAR": "1760",
+        "SUNACTIVITY": "62.9"
+      },
+      {
+        "YEAR": "1761",
+        "SUNACTIVITY": "85.9"
+      },
+      {
+        "YEAR": "1762",
+        "SUNACTIVITY": "61.2"
+      },
+      {
+        "YEAR": "1763",
+        "SUNACTIVITY": "45.1"
+      },
+      {
+        "YEAR": "1764",
+        "SUNACTIVITY": "36.4"
+      },
+      {
+        "YEAR": "1765",
+        "SUNACTIVITY": "20.9"
+      },
+      {
+        "YEAR": "1766",
+        "SUNACTIVITY": "11.4"
+      },
+      {
+        "YEAR": "1767",
+        "SUNACTIVITY": "37.8"
+      },
+      {
+        "YEAR": "1768",
+        "SUNACTIVITY": "69.8"
+      },
+      {
+        "YEAR": "1769",
+        "SUNACTIVITY": "106.1"
+      },
+      {
+        "YEAR": "1770",
+        "SUNACTIVITY": "100.8"
+      },
+      {
+        "YEAR": "1771",
+        "SUNACTIVITY": "81.6"
+      },
+      {
+        "YEAR": "1772",
+        "SUNACTIVITY": "66.5"
+      },
+      {
+        "YEAR": "1773",
+        "SUNACTIVITY": "34.8"
+      },
+      {
+        "YEAR": "1774",
+        "SUNACTIVITY": "30.6"
+      },
+      {
+        "YEAR": "1775",
+        "SUNACTIVITY": "7"
+      },
+      {
+        "YEAR": "1776",
+        "SUNACTIVITY": "19.8"
+      },
+      {
+        "YEAR": "1777",
+        "SUNACTIVITY": "92.5"
+      },
+      {
+        "YEAR": "1778",
+        "SUNACTIVITY": "154.4"
+      },
+      {
+        "YEAR": "1779",
+        "SUNACTIVITY": "125.9"
+      },
+      {
+        "YEAR": "1780",
+        "SUNACTIVITY": "84.8"
+      },
+      {
+        "YEAR": "1781",
+        "SUNACTIVITY": "68.1"
+      },
+      {
+        "YEAR": "1782",
+        "SUNACTIVITY": "38.5"
+      },
+      {
+        "YEAR": "1783",
+        "SUNACTIVITY": "22.8"
+      },
+      {
+        "YEAR": "1784",
+        "SUNACTIVITY": "10.2"
+      },
+      {
+        "YEAR": "1785",
+        "SUNACTIVITY": "24.1"
+      },
+      {
+        "YEAR": "1786",
+        "SUNACTIVITY": "82.9"
+      },
+      {
+        "YEAR": "1787",
+        "SUNACTIVITY": "132"
+      },
+      {
+        "YEAR": "1788",
+        "SUNACTIVITY": "130.9"
+      },
+      {
+        "YEAR": "1789",
+        "SUNACTIVITY": "118.1"
+      },
+      {
+        "YEAR": "1790",
+        "SUNACTIVITY": "89.9"
+      },
+      {
+        "YEAR": "1791",
+        "SUNACTIVITY": "66.6"
+      },
+      {
+        "YEAR": "1792",
+        "SUNACTIVITY": "60"
+      },
+      {
+        "YEAR": "1793",
+        "SUNACTIVITY": "46.9"
+      },
+      {
+        "YEAR": "1794",
+        "SUNACTIVITY": "41"
+      },
+      {
+        "YEAR": "1795",
+        "SUNACTIVITY": "21.3"
+      },
+      {
+        "YEAR": "1796",
+        "SUNACTIVITY": "16"
+      },
+      {
+        "YEAR": "1797",
+        "SUNACTIVITY": "6.4"
+      },
+      {
+        "YEAR": "1798",
+        "SUNACTIVITY": "4.1"
+      },
+      {
+        "YEAR": "1799",
+        "SUNACTIVITY": "6.8"
+      },
+      {
+        "YEAR": "1800",
+        "SUNACTIVITY": "14.5"
+      },
+      {
+        "YEAR": "1801",
+        "SUNACTIVITY": "34"
+      },
+      {
+        "YEAR": "1802",
+        "SUNACTIVITY": "45"
+      },
+      {
+        "YEAR": "1803",
+        "SUNACTIVITY": "43.1"
+      },
+      {
+        "YEAR": "1804",
+        "SUNACTIVITY": "47.5"
+      },
+      {
+        "YEAR": "1805",
+        "SUNACTIVITY": "42.2"
+      },
+      {
+        "YEAR": "1806",
+        "SUNACTIVITY": "28.1"
+      },
+      {
+        "YEAR": "1807",
+        "SUNACTIVITY": "10.1"
+      },
+      {
+        "YEAR": "1808",
+        "SUNACTIVITY": "8.1"
+      },
+      {
+        "YEAR": "1809",
+        "SUNACTIVITY": "2.5"
+      },
+      {
+        "YEAR": "1810",
+        "SUNACTIVITY": "0"
+      },
+      {
+        "YEAR": "1811",
+        "SUNACTIVITY": "1.4"
+      },
+      {
+        "YEAR": "1812",
+        "SUNACTIVITY": "5"
+      },
+      {
+        "YEAR": "1813",
+        "SUNACTIVITY": "12.2"
+      },
+      {
+        "YEAR": "1814",
+        "SUNACTIVITY": "13.9"
+      },
+      {
+        "YEAR": "1815",
+        "SUNACTIVITY": "35.4"
+      },
+      {
+        "YEAR": "1816",
+        "SUNACTIVITY": "45.8"
+      },
+      {
+        "YEAR": "1817",
+        "SUNACTIVITY": "41.1"
+      },
+      {
+        "YEAR": "1818",
+        "SUNACTIVITY": "30.1"
+      },
+      {
+        "YEAR": "1819",
+        "SUNACTIVITY": "23.9"
+      },
+      {
+        "YEAR": "1820",
+        "SUNACTIVITY": "15.6"
+      },
+      {
+        "YEAR": "1821",
+        "SUNACTIVITY": "6.6"
+      },
+      {
+        "YEAR": "1822",
+        "SUNACTIVITY": "4"
+      },
+      {
+        "YEAR": "1823",
+        "SUNACTIVITY": "1.8"
+      },
+      {
+        "YEAR": "1824",
+        "SUNACTIVITY": "8.5"
+      },
+      {
+        "YEAR": "1825",
+        "SUNACTIVITY": "16.6"
+      },
+      {
+        "YEAR": "1826",
+        "SUNACTIVITY": "36.3"
+      },
+      {
+        "YEAR": "1827",
+        "SUNACTIVITY": "49.6"
+      },
+      {
+        "YEAR": "1828",
+        "SUNACTIVITY": "64.2"
+      },
+      {
+        "YEAR": "1829",
+        "SUNACTIVITY": "67"
+      },
+      {
+        "YEAR": "1830",
+        "SUNACTIVITY": "70.9"
+      },
+      {
+        "YEAR": "1831",
+        "SUNACTIVITY": "47.8"
+      },
+      {
+        "YEAR": "1832",
+        "SUNACTIVITY": "27.5"
+      },
+      {
+        "YEAR": "1833",
+        "SUNACTIVITY": "8.5"
+      },
+      {
+        "YEAR": "1834",
+        "SUNACTIVITY": "13.2"
+      },
+      {
+        "YEAR": "1835",
+        "SUNACTIVITY": "56.9"
+      },
+      {
+        "YEAR": "1836",
+        "SUNACTIVITY": "121.5"
+      },
+      {
+        "YEAR": "1837",
+        "SUNACTIVITY": "138.3"
+      },
+      {
+        "YEAR": "1838",
+        "SUNACTIVITY": "103.2"
+      },
+      {
+        "YEAR": "1839",
+        "SUNACTIVITY": "85.7"
+      },
+      {
+        "YEAR": "1840",
+        "SUNACTIVITY": "64.6"
+      },
+      {
+        "YEAR": "1841",
+        "SUNACTIVITY": "36.7"
+      },
+      {
+        "YEAR": "1842",
+        "SUNACTIVITY": "24.2"
+      },
+      {
+        "YEAR": "1843",
+        "SUNACTIVITY": "10.7"
+      },
+      {
+        "YEAR": "1844",
+        "SUNACTIVITY": "15"
+      },
+      {
+        "YEAR": "1845",
+        "SUNACTIVITY": "40.1"
+      },
+      {
+        "YEAR": "1846",
+        "SUNACTIVITY": "61.5"
+      },
+      {
+        "YEAR": "1847",
+        "SUNACTIVITY": "98.5"
+      },
+      {
+        "YEAR": "1848",
+        "SUNACTIVITY": "124.7"
+      },
+      {
+        "YEAR": "1849",
+        "SUNACTIVITY": "96.3"
+      },
+      {
+        "YEAR": "1850",
+        "SUNACTIVITY": "66.6"
+      },
+      {
+        "YEAR": "1851",
+        "SUNACTIVITY": "64.5"
+      },
+      {
+        "YEAR": "1852",
+        "SUNACTIVITY": "54.1"
+      },
+      {
+        "YEAR": "1853",
+        "SUNACTIVITY": "39"
+      },
+      {
+        "YEAR": "1854",
+        "SUNACTIVITY": "20.6"
+      },
+      {
+        "YEAR": "1855",
+        "SUNACTIVITY": "6.7"
+      },
+      {
+        "YEAR": "1856",
+        "SUNACTIVITY": "4.3"
+      },
+      {
+        "YEAR": "1857",
+        "SUNACTIVITY": "22.7"
+      },
+      {
+        "YEAR": "1858",
+        "SUNACTIVITY": "54.8"
+      },
+      {
+        "YEAR": "1859",
+        "SUNACTIVITY": "93.8"
+      },
+      {
+        "YEAR": "1860",
+        "SUNACTIVITY": "95.8"
+      },
+      {
+        "YEAR": "1861",
+        "SUNACTIVITY": "77.2"
+      },
+      {
+        "YEAR": "1862",
+        "SUNACTIVITY": "59.1"
+      },
+      {
+        "YEAR": "1863",
+        "SUNACTIVITY": "44"
+      },
+      {
+        "YEAR": "1864",
+        "SUNACTIVITY": "47"
+      },
+      {
+        "YEAR": "1865",
+        "SUNACTIVITY": "30.5"
+      },
+      {
+        "YEAR": "1866",
+        "SUNACTIVITY": "16.3"
+      },
+      {
+        "YEAR": "1867",
+        "SUNACTIVITY": "7.3"
+      },
+      {
+        "YEAR": "1868",
+        "SUNACTIVITY": "37.6"
+      },
+      {
+        "YEAR": "1869",
+        "SUNACTIVITY": "74"
+      },
+      {
+        "YEAR": "1870",
+        "SUNACTIVITY": "139"
+      },
+      {
+        "YEAR": "1871",
+        "SUNACTIVITY": "111.2"
+      },
+      {
+        "YEAR": "1872",
+        "SUNACTIVITY": "101.6"
+      },
+      {
+        "YEAR": "1873",
+        "SUNACTIVITY": "66.2"
+      },
+      {
+        "YEAR": "1874",
+        "SUNACTIVITY": "44.7"
+      },
+      {
+        "YEAR": "1875",
+        "SUNACTIVITY": "17"
+      },
+      {
+        "YEAR": "1876",
+        "SUNACTIVITY": "11.3"
+      },
+      {
+        "YEAR": "1877",
+        "SUNACTIVITY": "12.4"
+      },
+      {
+        "YEAR": "1878",
+        "SUNACTIVITY": "3.4"
+      },
+      {
+        "YEAR": "1879",
+        "SUNACTIVITY": "6"
+      },
+      {
+        "YEAR": "1880",
+        "SUNACTIVITY": "32.3"
+      },
+      {
+        "YEAR": "1881",
+        "SUNACTIVITY": "54.3"
+      },
+      {
+        "YEAR": "1882",
+        "SUNACTIVITY": "59.7"
+      },
+      {
+        "YEAR": "1883",
+        "SUNACTIVITY": "63.7"
+      },
+      {
+        "YEAR": "1884",
+        "SUNACTIVITY": "63.5"
+      },
+      {
+        "YEAR": "1885",
+        "SUNACTIVITY": "52.2"
+      },
+      {
+        "YEAR": "1886",
+        "SUNACTIVITY": "25.4"
+      },
+      {
+        "YEAR": "1887",
+        "SUNACTIVITY": "13.1"
+      },
+      {
+        "YEAR": "1888",
+        "SUNACTIVITY": "6.8"
+      },
+      {
+        "YEAR": "1889",
+        "SUNACTIVITY": "6.3"
+      },
+      {
+        "YEAR": "1890",
+        "SUNACTIVITY": "7.1"
+      },
+      {
+        "YEAR": "1891",
+        "SUNACTIVITY": "35.6"
+      },
+      {
+        "YEAR": "1892",
+        "SUNACTIVITY": "73"
+      },
+      {
+        "YEAR": "1893",
+        "SUNACTIVITY": "85.1"
+      },
+      {
+        "YEAR": "1894",
+        "SUNACTIVITY": "78"
+      },
+      {
+        "YEAR": "1895",
+        "SUNACTIVITY": "64"
+      },
+      {
+        "YEAR": "1896",
+        "SUNACTIVITY": "41.8"
+      },
+      {
+        "YEAR": "1897",
+        "SUNACTIVITY": "26.2"
+      },
+      {
+        "YEAR": "1898",
+        "SUNACTIVITY": "26.7"
+      },
+      {
+        "YEAR": "1899",
+        "SUNACTIVITY": "12.1"
+      },
+      {
+        "YEAR": "1900",
+        "SUNACTIVITY": "9.5"
+      },
+      {
+        "YEAR": "1901",
+        "SUNACTIVITY": "2.7"
+      },
+      {
+        "YEAR": "1902",
+        "SUNACTIVITY": "5"
+      },
+      {
+        "YEAR": "1903",
+        "SUNACTIVITY": "24.4"
+      },
+      {
+        "YEAR": "1904",
+        "SUNACTIVITY": "42"
+      },
+      {
+        "YEAR": "1905",
+        "SUNACTIVITY": "63.5"
+      },
+      {
+        "YEAR": "1906",
+        "SUNACTIVITY": "53.8"
+      },
+      {
+        "YEAR": "1907",
+        "SUNACTIVITY": "62"
+      },
+      {
+        "YEAR": "1908",
+        "SUNACTIVITY": "48.5"
+      },
+      {
+        "YEAR": "1909",
+        "SUNACTIVITY": "43.9"
+      },
+      {
+        "YEAR": "1910",
+        "SUNACTIVITY": "18.6"
+      },
+      {
+        "YEAR": "1911",
+        "SUNACTIVITY": "5.7"
+      },
+      {
+        "YEAR": "1912",
+        "SUNACTIVITY": "3.6"
+      },
+      {
+        "YEAR": "1913",
+        "SUNACTIVITY": "1.4"
+      },
+      {
+        "YEAR": "1914",
+        "SUNACTIVITY": "9.6"
+      },
+      {
+        "YEAR": "1915",
+        "SUNACTIVITY": "47.4"
+      },
+      {
+        "YEAR": "1916",
+        "SUNACTIVITY": "57.1"
+      },
+      {
+        "YEAR": "1917",
+        "SUNACTIVITY": "103.9"
+      },
+      {
+        "YEAR": "1918",
+        "SUNACTIVITY": "80.6"
+      },
+      {
+        "YEAR": "1919",
+        "SUNACTIVITY": "63.6"
+      },
+      {
+        "YEAR": "1920",
+        "SUNACTIVITY": "37.6"
+      },
+      {
+        "YEAR": "1921",
+        "SUNACTIVITY": "26.1"
+      },
+      {
+        "YEAR": "1922",
+        "SUNACTIVITY": "14.2"
+      },
+      {
+        "YEAR": "1923",
+        "SUNACTIVITY": "5.8"
+      },
+      {
+        "YEAR": "1924",
+        "SUNACTIVITY": "16.7"
+      },
+      {
+        "YEAR": "1925",
+        "SUNACTIVITY": "44.3"
+      },
+      {
+        "YEAR": "1926",
+        "SUNACTIVITY": "63.9"
+      },
+      {
+        "YEAR": "1927",
+        "SUNACTIVITY": "69"
+      },
+      {
+        "YEAR": "1928",
+        "SUNACTIVITY": "77.8"
+      },
+      {
+        "YEAR": "1929",
+        "SUNACTIVITY": "64.9"
+      },
+      {
+        "YEAR": "1930",
+        "SUNACTIVITY": "35.7"
+      },
+      {
+        "YEAR": "1931",
+        "SUNACTIVITY": "21.2"
+      },
+      {
+        "YEAR": "1932",
+        "SUNACTIVITY": "11.1"
+      },
+      {
+        "YEAR": "1933",
+        "SUNACTIVITY": "5.7"
+      },
+      {
+        "YEAR": "1934",
+        "SUNACTIVITY": "8.7"
+      },
+      {
+        "YEAR": "1935",
+        "SUNACTIVITY": "36.1"
+      },
+      {
+        "YEAR": "1936",
+        "SUNACTIVITY": "79.7"
+      },
+      {
+        "YEAR": "1937",
+        "SUNACTIVITY": "114.4"
+      },
+      {
+        "YEAR": "1938",
+        "SUNACTIVITY": "109.6"
+      },
+      {
+        "YEAR": "1939",
+        "SUNACTIVITY": "88.8"
+      },
+      {
+        "YEAR": "1940",
+        "SUNACTIVITY": "67.8"
+      },
+      {
+        "YEAR": "1941",
+        "SUNACTIVITY": "47.5"
+      },
+      {
+        "YEAR": "1942",
+        "SUNACTIVITY": "30.6"
+      },
+      {
+        "YEAR": "1943",
+        "SUNACTIVITY": "16.3"
+      },
+      {
+        "YEAR": "1944",
+        "SUNACTIVITY": "9.6"
+      },
+      {
+        "YEAR": "1945",
+        "SUNACTIVITY": "33.2"
+      },
+      {
+        "YEAR": "1946",
+        "SUNACTIVITY": "92.6"
+      },
+      {
+        "YEAR": "1947",
+        "SUNACTIVITY": "151.6"
+      },
+      {
+        "YEAR": "1948",
+        "SUNACTIVITY": "136.3"
+      },
+      {
+        "YEAR": "1949",
+        "SUNACTIVITY": "134.7"
+      },
+      {
+        "YEAR": "1950",
+        "SUNACTIVITY": "83.9"
+      },
+      {
+        "YEAR": "1951",
+        "SUNACTIVITY": "69.4"
+      },
+      {
+        "YEAR": "1952",
+        "SUNACTIVITY": "31.5"
+      },
+      {
+        "YEAR": "1953",
+        "SUNACTIVITY": "13.9"
+      },
+      {
+        "YEAR": "1954",
+        "SUNACTIVITY": "4.4"
+      },
+      {
+        "YEAR": "1955",
+        "SUNACTIVITY": "38"
+      },
+      {
+        "YEAR": "1956",
+        "SUNACTIVITY": "141.7"
+      },
+      {
+        "YEAR": "1957",
+        "SUNACTIVITY": "190.2"
+      },
+      {
+        "YEAR": "1958",
+        "SUNACTIVITY": "184.8"
+      },
+      {
+        "YEAR": "1959",
+        "SUNACTIVITY": "159"
+      },
+      {
+        "YEAR": "1960",
+        "SUNACTIVITY": "112.3"
+      },
+      {
+        "YEAR": "1961",
+        "SUNACTIVITY": "53.9"
+      },
+      {
+        "YEAR": "1962",
+        "SUNACTIVITY": "37.6"
+      },
+      {
+        "YEAR": "1963",
+        "SUNACTIVITY": "27.9"
+      },
+      {
+        "YEAR": "1964",
+        "SUNACTIVITY": "10.2"
+      },
+      {
+        "YEAR": "1965",
+        "SUNACTIVITY": "15.1"
+      },
+      {
+        "YEAR": "1966",
+        "SUNACTIVITY": "47"
+      },
+      {
+        "YEAR": "1967",
+        "SUNACTIVITY": "93.8"
+      },
+      {
+        "YEAR": "1968",
+        "SUNACTIVITY": "105.9"
+      },
+      {
+        "YEAR": "1969",
+        "SUNACTIVITY": "105.5"
+      },
+      {
+        "YEAR": "1970",
+        "SUNACTIVITY": "104.5"
+      },
+      {
+        "YEAR": "1971",
+        "SUNACTIVITY": "66.6"
+      },
+      {
+        "YEAR": "1972",
+        "SUNACTIVITY": "68.9"
+      },
+      {
+        "YEAR": "1973",
+        "SUNACTIVITY": "38"
+      },
+      {
+        "YEAR": "1974",
+        "SUNACTIVITY": "34.5"
+      },
+      {
+        "YEAR": "1975",
+        "SUNACTIVITY": "15.5"
+      },
+      {
+        "YEAR": "1976",
+        "SUNACTIVITY": "12.6"
+      },
+      {
+        "YEAR": "1977",
+        "SUNACTIVITY": "27.5"
+      },
+      {
+        "YEAR": "1978",
+        "SUNACTIVITY": "92.5"
+      },
+      {
+        "YEAR": "1979",
+        "SUNACTIVITY": "155.4"
+      },
+      {
+        "YEAR": "1980",
+        "SUNACTIVITY": "154.6"
+      },
+      {
+        "YEAR": "1981",
+        "SUNACTIVITY": "140.4"
+      },
+      {
+        "YEAR": "1982",
+        "SUNACTIVITY": "115.9"
+      },
+      {
+        "YEAR": "1983",
+        "SUNACTIVITY": "66.6"
+      },
+      {
+        "YEAR": "1984",
+        "SUNACTIVITY": "45.9"
+      },
+      {
+        "YEAR": "1985",
+        "SUNACTIVITY": "17.9"
+      },
+      {
+        "YEAR": "1986",
+        "SUNACTIVITY": "13.4"
+      },
+      {
+        "YEAR": "1987",
+        "SUNACTIVITY": "29.4"
+      },
+      {
+        "YEAR": "1988",
+        "SUNACTIVITY": "100.2"
+      },
+      {
+        "YEAR": "1989",
+        "SUNACTIVITY": "157.6"
+      },
+      {
+        "YEAR": "1990",
+        "SUNACTIVITY": "142.6"
+      },
+      {
+        "YEAR": "1991",
+        "SUNACTIVITY": "145.7"
+      },
+      {
+        "YEAR": "1992",
+        "SUNACTIVITY": "94.3"
+      },
+      {
+        "YEAR": "1993",
+        "SUNACTIVITY": "54.6"
+      },
+      {
+        "YEAR": "1994",
+        "SUNACTIVITY": "29.9"
+      },
+      {
+        "YEAR": "1995",
+        "SUNACTIVITY": "17.5"
+      },
+      {
+        "YEAR": "1996",
+        "SUNACTIVITY": "8.6"
+      },
+      {
+        "YEAR": "1997",
+        "SUNACTIVITY": "21.5"
+      },
+      {
+        "YEAR": "1998",
+        "SUNACTIVITY": "64.3"
+      },
+      {
+        "YEAR": "1999",
+        "SUNACTIVITY": "93.3"
+      },
+      {
+        "YEAR": "2000",
+        "SUNACTIVITY": "119.6"
+      },
+      {
+        "YEAR": "2001",
+        "SUNACTIVITY": "111"
+      },
+      {
+        "YEAR": "2002",
+        "SUNACTIVITY": "104"
+      },
+      {
+        "YEAR": "2003",
+        "SUNACTIVITY": "63.7"
+      },
+      {
+        "YEAR": "2004",
+        "SUNACTIVITY": "40.4"
+      },
+      {
+        "YEAR": "2005",
+        "SUNACTIVITY": "29.8"
+      },
+      {
+        "YEAR": "2006",
+        "SUNACTIVITY": "15.2"
+      },
+      {
+        "YEAR": "2007",
+        "SUNACTIVITY": "7.5"
+      },
+      {
+        "YEAR": "2008",
+        "SUNACTIVITY": "2.9"
+      }
+    ]
+  },
+  "nile": {
+    "source_url": "https://raw.githubusercontent.com/statsmodels/statsmodels/v0.14.4/statsmodels/datasets/nile/nile.csv",
+    "sha256": "88e97bea7249e5832a85e41aec6ce4b8f7b1b14aae930c8363da7f193286b598",
+    "metadata_url": "https://raw.githubusercontent.com/statsmodels/statsmodels/v0.14.4/statsmodels/datasets/nile/data.py",
+    "rows": [
+      {
+        "year": "1871",
+        "volume": "1120"
+      },
+      {
+        "year": "1872",
+        "volume": "1160"
+      },
+      {
+        "year": "1873",
+        "volume": "963"
+      },
+      {
+        "year": "1874",
+        "volume": "1210"
+      },
+      {
+        "year": "1875",
+        "volume": "1160"
+      },
+      {
+        "year": "1876",
+        "volume": "1160"
+      },
+      {
+        "year": "1877",
+        "volume": "813"
+      },
+      {
+        "year": "1878",
+        "volume": "1230"
+      },
+      {
+        "year": "1879",
+        "volume": "1370"
+      },
+      {
+        "year": "1880",
+        "volume": "1140"
+      },
+      {
+        "year": "1881",
+        "volume": "995"
+      },
+      {
+        "year": "1882",
+        "volume": "935"
+      },
+      {
+        "year": "1883",
+        "volume": "1110"
+      },
+      {
+        "year": "1884",
+        "volume": "994"
+      },
+      {
+        "year": "1885",
+        "volume": "1020"
+      },
+      {
+        "year": "1886",
+        "volume": "960"
+      },
+      {
+        "year": "1887",
+        "volume": "1180"
+      },
+      {
+        "year": "1888",
+        "volume": "799"
+      },
+      {
+        "year": "1889",
+        "volume": "958"
+      },
+      {
+        "year": "1890",
+        "volume": "1140"
+      },
+      {
+        "year": "1891",
+        "volume": "1100"
+      },
+      {
+        "year": "1892",
+        "volume": "1210"
+      },
+      {
+        "year": "1893",
+        "volume": "1150"
+      },
+      {
+        "year": "1894",
+        "volume": "1250"
+      },
+      {
+        "year": "1895",
+        "volume": "1260"
+      },
+      {
+        "year": "1896",
+        "volume": "1220"
+      },
+      {
+        "year": "1897",
+        "volume": "1030"
+      },
+      {
+        "year": "1898",
+        "volume": "1100"
+      },
+      {
+        "year": "1899",
+        "volume": "774"
+      },
+      {
+        "year": "1900",
+        "volume": "840"
+      },
+      {
+        "year": "1901",
+        "volume": "874"
+      },
+      {
+        "year": "1902",
+        "volume": "694"
+      },
+      {
+        "year": "1903",
+        "volume": "940"
+      },
+      {
+        "year": "1904",
+        "volume": "833"
+      },
+      {
+        "year": "1905",
+        "volume": "701"
+      },
+      {
+        "year": "1906",
+        "volume": "916"
+      },
+      {
+        "year": "1907",
+        "volume": "692"
+      },
+      {
+        "year": "1908",
+        "volume": "1020"
+      },
+      {
+        "year": "1909",
+        "volume": "1050"
+      },
+      {
+        "year": "1910",
+        "volume": "969"
+      },
+      {
+        "year": "1911",
+        "volume": "831"
+      },
+      {
+        "year": "1912",
+        "volume": "726"
+      },
+      {
+        "year": "1913",
+        "volume": "456"
+      },
+      {
+        "year": "1914",
+        "volume": "824"
+      },
+      {
+        "year": "1915",
+        "volume": "702"
+      },
+      {
+        "year": "1916",
+        "volume": "1120"
+      },
+      {
+        "year": "1917",
+        "volume": "1100"
+      },
+      {
+        "year": "1918",
+        "volume": "832"
+      },
+      {
+        "year": "1919",
+        "volume": "764"
+      },
+      {
+        "year": "1920",
+        "volume": "821"
+      },
+      {
+        "year": "1921",
+        "volume": "768"
+      },
+      {
+        "year": "1922",
+        "volume": "845"
+      },
+      {
+        "year": "1923",
+        "volume": "864"
+      },
+      {
+        "year": "1924",
+        "volume": "862"
+      },
+      {
+        "year": "1925",
+        "volume": "698"
+      },
+      {
+        "year": "1926",
+        "volume": "845"
+      },
+      {
+        "year": "1927",
+        "volume": "744"
+      },
+      {
+        "year": "1928",
+        "volume": "796"
+      },
+      {
+        "year": "1929",
+        "volume": "1040"
+      },
+      {
+        "year": "1930",
+        "volume": "759"
+      },
+      {
+        "year": "1931",
+        "volume": "781"
+      },
+      {
+        "year": "1932",
+        "volume": "865"
+      },
+      {
+        "year": "1933",
+        "volume": "845"
+      },
+      {
+        "year": "1934",
+        "volume": "944"
+      },
+      {
+        "year": "1935",
+        "volume": "984"
+      },
+      {
+        "year": "1936",
+        "volume": "897"
+      },
+      {
+        "year": "1937",
+        "volume": "822"
+      },
+      {
+        "year": "1938",
+        "volume": "1010"
+      },
+      {
+        "year": "1939",
+        "volume": "771"
+      },
+      {
+        "year": "1940",
+        "volume": "676"
+      },
+      {
+        "year": "1941",
+        "volume": "649"
+      },
+      {
+        "year": "1942",
+        "volume": "846"
+      },
+      {
+        "year": "1943",
+        "volume": "812"
+      },
+      {
+        "year": "1944",
+        "volume": "742"
+      },
+      {
+        "year": "1945",
+        "volume": "801"
+      },
+      {
+        "year": "1946",
+        "volume": "1040"
+      },
+      {
+        "year": "1947",
+        "volume": "860"
+      },
+      {
+        "year": "1948",
+        "volume": "874"
+      },
+      {
+        "year": "1949",
+        "volume": "848"
+      },
+      {
+        "year": "1950",
+        "volume": "890"
+      },
+      {
+        "year": "1951",
+        "volume": "744"
+      },
+      {
+        "year": "1952",
+        "volume": "749"
+      },
+      {
+        "year": "1953",
+        "volume": "838"
+      },
+      {
+        "year": "1954",
+        "volume": "1050"
+      },
+      {
+        "year": "1955",
+        "volume": "918"
+      },
+      {
+        "year": "1956",
+        "volume": "986"
+      },
+      {
+        "year": "1957",
+        "volume": "797"
+      },
+      {
+        "year": "1958",
+        "volume": "923"
+      },
+      {
+        "year": "1959",
+        "volume": "975"
+      },
+      {
+        "year": "1960",
+        "volume": "815"
+      },
+      {
+        "year": "1961",
+        "volume": "1020"
+      },
+      {
+        "year": "1962",
+        "volume": "906"
+      },
+      {
+        "year": "1963",
+        "volume": "901"
+      },
+      {
+        "year": "1964",
+        "volume": "1170"
+      },
+      {
+        "year": "1965",
+        "volume": "912"
+      },
+      {
+        "year": "1966",
+        "volume": "746"
+      },
+      {
+        "year": "1967",
+        "volume": "919"
+      },
+      {
+        "year": "1968",
+        "volume": "718"
+      },
+      {
+        "year": "1969",
+        "volume": "714"
+      },
+      {
+        "year": "1970",
+        "volume": "740"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+factorization_trials,max_forbidden_s1_zero_amplitude,max_factorization_relative_error,harmonic_L3_min_phase,dyadic_L3_min_phase,dyadic_L4_min_phase,max_well_conditioned_relative_path_error,median_incommensurate_relative_path_error,max_transport_relative_output_error
+100,0,1.7458421826639014e-15,3,5,7,8.799161119321916e-15,7.101231303642636e-10,4.255494306645284e-15

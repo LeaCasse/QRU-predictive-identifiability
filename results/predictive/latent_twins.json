@@ -1,0 +1,731 @@
+{
+  "protocol": {
+    "exact": "algebraic construction with singular circuit angles",
+    "numerical": "12 independent random seeds; best distinct twin of 10 optimizer restarts per seed",
+    "baseline": "complete grouped Fourier coefficients, not merely finite samples",
+    "forecast": "alpha=(1,2+delta); theta and bias held fixed",
+    "control": "two-state classical path-resolved Fourier hypotheses; same path tags, probes and predictions",
+    "limitation": "classical path coefficients assumed calibrated for each candidate; neither branch identifiable from passive baseline outputs"
+  },
+  "exact": {
+    "theta_a": [
+      [
+        0.0,
+        3.141592653589793,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "theta_b": [
+      [
+        0.0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      [
+        1.5707963267948966,
+        0.0,
+        0.0
+      ]
+    ],
+    "alpha": [
+      1.0,
+      2.0
+    ],
+    "delta": 0.02,
+    "baseline_function": "cos(x)",
+    "future_a": "cos((1+delta)*x)",
+    "future_b": "cos(x)",
+    "exact_identity_grid_max_error": 1.0547118733938987e-15,
+    "future_rms": 0.0495093699577392,
+    "future_mse": 0.0024511777136122883,
+    "future_risk_lower_bound": 0.0006127944284030721,
+    "phase_probe_x": 0.7853981633974483,
+    "phase_probe_shift": 1.5707963267948966,
+    "phase_mean_a": -0.7071067811865475,
+    "phase_mean_b": 0.7071067811865478,
+    "phase_shot_kl_a_to_b": 1.246450480280462,
+    "phase_gaussian_kl_per_sample": 25.000000000000007,
+    "baseline_recovery_phase_settings": 2,
+    "tomography_max_path_error": 4.2471023734050264e-16,
+    "classical_path_forecast_max_error": 1.0547118733938987e-15
+  },
+  "numerical_trials": [
+    {
+      "seed": 198,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          1.194343747944493,
+          1.2862724856562817,
+          -1.6506093957427193
+        ],
+        [
+          0.2777876537703694,
+          1.1406774098461505,
+          1.6031027023387483
+        ]
+      ],
+      "theta_b": [
+        [
+          0.8131436483690058,
+          0.9228864335410867,
+          0.11428687462685816
+        ],
+        [
+          2.4186849809620625,
+          1.1782786423690235,
+          -2.782601824885349
+        ]
+      ],
+      "grouped_spectrum_max_error": 1.2519272298110352e-14,
+      "baseline_grid_max_error": 3.7636560534792807e-14,
+      "path_l2_difference": 0.6501093550442154,
+      "collision_path_difference_real": -0.01432759038349907,
+      "collision_path_difference_imag": 0.3247387619807738,
+      "collision_cancellation_error": 9.772195448416131e-15,
+      "future_transverse_rms": 0.03480305071325708,
+      "future_transverse_mse": 0.0012112523389495441,
+      "parallel_drift_max_error": 3.7414515929867775e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": 0.6208223431945418,
+      "phase_probe_kl_per_label": 481.7754772619517,
+      "phase_probe_labels_kl_one": 0.0020756556678294324,
+      "path_resolved_classical_max_error": 1.5543122344752192e-15,
+      "attempts": 10,
+      "first_found_attempt": 5,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 199,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          0.6957544995707403,
+          0.4277799305627066,
+          -1.6976463636352435
+        ],
+        [
+          -1.4643103364832153,
+          0.19357174801407906,
+          1.9916791773955564
+        ]
+      ],
+      "theta_b": [
+        [
+          0.6017180971255613,
+          -2.9748371790366446,
+          -1.1207198077840796
+        ],
+        [
+          -0.2655322654635151,
+          -2.406165539715942,
+          -2.0958321621965963
+        ]
+      ],
+      "grouped_spectrum_max_error": 1.4812222630807097e-15,
+      "baseline_grid_max_error": 4.884981308350689e-15,
+      "path_l2_difference": 0.8606281048322093,
+      "collision_path_difference_real": 0.21938541144874107,
+      "collision_path_difference_imag": -0.37018944467696,
+      "collision_cancellation_error": 1.4812222630807097e-15,
+      "future_transverse_rms": 0.0490445978867851,
+      "future_transverse_mse": 0.0024053725818764453,
+      "parallel_drift_max_error": 4.884981308350689e-15,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": -0.3016080664564364,
+      "phase_probe_kl_per_label": 113.7092821894877,
+      "phase_probe_labels_kl_one": 0.008794356808387705,
+      "path_resolved_classical_max_error": 2.275957200481571e-15,
+      "attempts": 10,
+      "first_found_attempt": 10,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 200,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          0.5873365747165522,
+          0.6556798855176513,
+          -1.8803933902307923
+        ],
+        [
+          -1.2886746306497,
+          0.29398659699746155,
+          0.20465607050430945
+        ]
+      ],
+      "theta_b": [
+        [
+          -0.9690939995139344,
+          3.4676900972144455,
+          -1.3845302781011044
+        ],
+        [
+          3.055828885611739,
+          3.056509517685371,
+          0.5195778434636336
+        ]
+      ],
+      "grouped_spectrum_max_error": 6.9311735589850124e-15,
+      "baseline_grid_max_error": 2.1760371282653068e-14,
+      "path_l2_difference": 0.7718748957976793,
+      "collision_path_difference_real": 0.20732124662930057,
+      "collision_path_difference_imag": -0.3255236003529387,
+      "collision_cancellation_error": 6.9311735589850124e-15,
+      "future_transverse_rms": 0.04403477756676953,
+      "future_transverse_mse": 0.0019390616353548691,
+      "parallel_drift_max_error": 2.142730437526552e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": -0.23640470744727748,
+      "phase_probe_kl_per_label": 69.85898212904107,
+      "phase_probe_labels_kl_one": 0.014314551536878037,
+      "path_resolved_classical_max_error": 1.27675647831893e-15,
+      "attempts": 10,
+      "first_found_attempt": 9,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 201,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          1.9629349795166071,
+          0.14653331146941673,
+          -0.046634605256675954
+        ],
+        [
+          0.3678975736484933,
+          0.7362937059772068,
+          0.0788167257085921
+        ]
+      ],
+      "theta_b": [
+        [
+          6.170261288111569,
+          -5.091432523101065,
+          1.562906962298731
+        ],
+        [
+          -2.008992521258065,
+          -0.7873575608650939,
+          -4.377012818322545
+        ]
+      ],
+      "grouped_spectrum_max_error": 1.014049549153168e-14,
+      "baseline_grid_max_error": 2.8310687127941492e-14,
+      "path_l2_difference": 0.5106676385771952,
+      "collision_path_difference_real": 0.25531614112823264,
+      "collision_path_difference_imag": -0.0030045551897249344,
+      "collision_cancellation_error": 1.008641267276738e-14,
+      "future_transverse_rms": 0.025356056297335474,
+      "future_transverse_mse": 0.0006429295909536459,
+      "parallel_drift_max_error": 2.8310687127941492e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": 0.5046231718770344,
+      "phase_probe_kl_per_label": 318.30568199404877,
+      "phase_probe_labels_kl_one": 0.0031416341478274225,
+      "path_resolved_classical_max_error": 1.27675647831893e-15,
+      "attempts": 10,
+      "first_found_attempt": 9,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 202,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          -0.6148500003050308,
+          -0.22537636810236394,
+          1.263020534305804
+        ],
+        [
+          0.7499667231339453,
+          -0.7982960351560178,
+          -0.23943304892667738
+        ]
+      ],
+      "theta_b": [
+        [
+          1.168940952251243,
+          0.5622360561258697,
+          -2.4494072407717518
+        ],
+        [
+          0.158186675029952,
+          -2.971743731132028,
+          -3.1158938088704597
+        ]
+      ],
+      "grouped_spectrum_max_error": 1.2716416205306208e-14,
+      "baseline_grid_max_error": 5.029310301551959e-14,
+      "path_l2_difference": 0.2773916445283902,
+      "collision_path_difference_real": -0.03495208020948551,
+      "collision_path_difference_imag": 0.13421953361032246,
+      "collision_cancellation_error": 1.2427371076315163e-14,
+      "future_transverse_rms": 0.015405172536670139,
+      "future_transverse_mse": 0.00023731934088457588,
+      "parallel_drift_max_error": 5.012656956182582e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": 0.19853490680164543,
+      "phase_probe_kl_per_label": 49.27013652342254,
+      "phase_probe_labels_kl_one": 0.020296270125507155,
+      "path_resolved_classical_max_error": 1.5543122344752192e-15,
+      "attempts": 10,
+      "first_found_attempt": 6,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 203,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          1.1237721976990644,
+          -0.6227678852685576,
+          -1.650220510570295
+        ],
+        [
+          -1.076083042246097,
+          -0.7319720204731137,
+          1.4485073704719347
+        ]
+      ],
+      "theta_b": [
+        [
+          1.9429859133280285,
+          0.1828236773070972,
+          -0.859977507439738
+        ],
+        [
+          -0.05340827560092013,
+          -0.14023344620060715,
+          -6.29155960739073
+        ]
+      ],
+      "grouped_spectrum_max_error": 9.262547512353557e-15,
+      "baseline_grid_max_error": 3.3639757646142243e-14,
+      "path_l2_difference": 0.8299285947372691,
+      "collision_path_difference_real": -0.30106973769331263,
+      "collision_path_difference_imag": -0.28557377529444267,
+      "collision_cancellation_error": 9.262547512353557e-15,
+      "future_transverse_rms": 0.037315250540477726,
+      "future_transverse_mse": 0.0013924279228986233,
+      "parallel_drift_max_error": 3.391731340229853e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": -1.173287025975536,
+      "phase_probe_kl_per_label": 1720.7530566531473,
+      "phase_probe_labels_kl_one": 0.0005811409116105207,
+      "path_resolved_classical_max_error": 1.3322676295501878e-15,
+      "attempts": 10,
+      "first_found_attempt": 10,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 204,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          0.1457403709567311,
+          1.2479004318790632,
+          0.4743815243363412
+        ],
+        [
+          -1.1012498768010235,
+          -1.9586227597007482,
+          -1.193209616926624
+        ]
+      ],
+      "theta_b": [
+        [
+          -0.8393530054893328,
+          2.2105697539914964,
+          -0.7364668033096202
+        ],
+        [
+          0.1493110201580844,
+          -0.09323797380952717,
+          1.575189595922861
+        ]
+      ],
+      "grouped_spectrum_max_error": 6.309007794149559e-15,
+      "baseline_grid_max_error": 2.375877272697835e-14,
+      "path_l2_difference": 0.8444219686189038,
+      "collision_path_difference_real": -0.11031120282793383,
+      "collision_path_difference_imag": 0.40754576896614764,
+      "collision_cancellation_error": 6.309007794149559e-15,
+      "future_transverse_rms": 0.04695871730419671,
+      "future_transverse_mse": 0.002205121130855463,
+      "parallel_drift_max_error": 2.348121697082206e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": 0.5944691322764257,
+      "phase_probe_kl_per_label": 441.7419365368582,
+      "phase_probe_labels_kl_one": 0.0022637651472254133,
+      "path_resolved_classical_max_error": 1.5404344466674047e-15,
+      "attempts": 10,
+      "first_found_attempt": 4,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 205,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          1.6327424603878549,
+          -1.0877588237352813,
+          1.2923395050846582
+        ],
+        [
+          -1.2384372056663384,
+          -0.32477517699157454,
+          -1.4591277359945698
+        ]
+      ],
+      "theta_b": [
+        [
+          -0.6422923033023751,
+          2.529616980656779,
+          -3.1824170198111346
+        ],
+        [
+          0.4037156155432074,
+          3.0054531713026824,
+          -2.788533656004467
+        ]
+      ],
+      "grouped_spectrum_max_error": 1.1891442248473369e-14,
+      "baseline_grid_max_error": 4.374278717023117e-14,
+      "path_l2_difference": 0.7241474214782275,
+      "collision_path_difference_real": 0.3618329926140673,
+      "collision_path_difference_imag": -0.013200661511366035,
+      "collision_cancellation_error": 1.1879005366709535e-14,
+      "future_transverse_rms": 0.03617499885993626,
+      "future_transverse_mse": 0.0013086305425163897,
+      "parallel_drift_max_error": 4.363176486776865e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": 0.6972646622053926,
+      "phase_probe_kl_per_label": 607.7225114505003,
+      "phase_probe_labels_kl_one": 0.0016454878355801226,
+      "path_resolved_classical_max_error": 1.3322676295501878e-15,
+      "attempts": 10,
+      "first_found_attempt": 6,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 206,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          1.4480376360338427,
+          -0.4462514950905345,
+          1.9883176015585473
+        ],
+        [
+          -0.7125899903063964,
+          1.5656872185104214,
+          -1.572299578529655
+        ]
+      ],
+      "theta_b": [
+        [
+          0.22306725488587006,
+          1.5090386290645768,
+          -0.9703422071792881
+        ],
+        [
+          -2.4857746558378855,
+          -0.08093956732432887,
+          -2.3610337737622493
+        ]
+      ],
+      "grouped_spectrum_max_error": 1.3201066479791241e-14,
+      "baseline_grid_max_error": 3.880229471064922e-14,
+      "path_l2_difference": 0.5780246586149592,
+      "collision_path_difference_real": -0.24315198943792968,
+      "collision_path_difference_imag": 0.15622175432414742,
+      "collision_cancellation_error": 9.309503074677274e-15,
+      "future_transverse_rms": 0.03220727729710708,
+      "future_transverse_mse": 0.0010373087108927492,
+      "parallel_drift_max_error": 3.8746783559417963e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": -0.17386047022756151,
+      "phase_probe_kl_per_label": 37.784328884686005,
+      "phase_probe_labels_kl_one": 0.02646599872269533,
+      "path_resolved_classical_max_error": 1.27675647831893e-15,
+      "attempts": 10,
+      "first_found_attempt": 5,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 207,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          -0.8949735983213603,
+          -0.020705379308344707,
+          1.5355003520813626
+        ],
+        [
+          0.3017512818956627,
+          1.2447805532233658,
+          -0.08193630785294914
+        ]
+      ],
+      "theta_b": [
+        [
+          -3.6965263001383244,
+          -3.754384695524042,
+          -0.8879416958161755
+        ],
+        [
+          3.555740633800577,
+          2.6532023026966067,
+          -3.7520205336167685
+        ]
+      ],
+      "grouped_spectrum_max_error": 1.98203489826937e-14,
+      "baseline_grid_max_error": 6.494804694057166e-14,
+      "path_l2_difference": 0.08370609007847435,
+      "collision_path_difference_real": -0.03403693139585759,
+      "collision_path_difference_imag": -0.02435497239189037,
+      "collision_cancellation_error": 1.98343157202425e-14,
+      "future_transverse_rms": 0.003747233794728726,
+      "future_transverse_mse": 1.4041761112357047e-05,
+      "parallel_drift_max_error": 6.483702463810914e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": -0.1167838075755081,
+      "phase_probe_kl_per_label": 17.04807213979163,
+      "phase_probe_labels_kl_one": 0.05865765887193287,
+      "path_resolved_classical_max_error": 1.887379141862766e-15,
+      "attempts": 10,
+      "first_found_attempt": 10,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 208,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          1.8168886656788876,
+          0.7277335150610607,
+          -1.1695188787437023
+        ],
+        [
+          0.19092127030775874,
+          1.7062952405235308,
+          1.160042544693455
+        ]
+      ],
+      "theta_b": [
+        [
+          4.424010798579004,
+          2.5933567278306477,
+          -2.3244710106987734
+        ],
+        [
+          -2.2735877933962585,
+          2.6697030219980684,
+          -3.4734635296272773
+        ]
+      ],
+      "grouped_spectrum_max_error": 1.7637964027426846e-14,
+      "baseline_grid_max_error": 4.718447854656915e-14,
+      "path_l2_difference": 0.8052523448418192,
+      "collision_path_difference_real": -0.01631055189871311,
+      "collision_path_difference_imag": 0.4022956631820351,
+      "collision_cancellation_error": 7.508088418048304e-15,
+      "future_transverse_rms": 0.04307709192531541,
+      "future_transverse_mse": 0.0018556358487420742,
+      "parallel_drift_max_error": 4.729550084903167e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": 0.7719702225665981,
+      "phase_probe_kl_per_label": 744.9225306619036,
+      "phase_probe_labels_kl_one": 0.0013424214718159302,
+      "path_resolved_classical_max_error": 1.7486012637846216e-15,
+      "attempts": 10,
+      "first_found_attempt": 7,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 209,
+      "alpha": [
+        1.0,
+        2.0
+      ],
+      "drift_alpha": [
+        1.0,
+        2.02
+      ],
+      "theta_a": [
+        [
+          -0.8598200066932682,
+          0.33533336464632324,
+          0.746154411124448
+        ],
+        [
+          -1.956447978609734,
+          -1.4448771860785552,
+          0.9638080705652152
+        ]
+      ],
+      "theta_b": [
+        [
+          -1.167411060261269,
+          3.226741507957544,
+          5.488882366027459
+        ],
+        [
+          3.196678716413283,
+          1.499394836235616,
+          -0.6634086770623143
+        ]
+      ],
+      "grouped_spectrum_max_error": 5.588201059667309e-15,
+      "baseline_grid_max_error": 1.9595436384634013e-14,
+      "path_l2_difference": 0.7494877403117335,
+      "collision_path_difference_real": -0.36291007376069784,
+      "collision_path_difference_imag": -0.09343043713051909,
+      "collision_cancellation_error": 5.588201059667309e-15,
+      "future_transverse_rms": 0.03501776101523153,
+      "future_transverse_mse": 0.0012262435865198693,
+      "parallel_drift_max_error": 1.970645868709653e-14,
+      "phase_probe_x": 3.141592653589793,
+      "phase_probe_bias_shift": 1.5707963267948966,
+      "phase_probe_mean_gap": -0.9126810217824552,
+      "phase_probe_kl_per_label": 1041.2333094023331,
+      "phase_probe_labels_kl_one": 0.0009603995482760717,
+      "path_resolved_classical_max_error": 1.942890293094024e-15,
+      "attempts": 10,
+      "first_found_attempt": 4,
+      "baseline_theta_ranks": [
+        4,
+        4
+      ]
+    }
+  ]
+}

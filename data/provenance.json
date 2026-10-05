@@ -1,0 +1,803 @@
+{
+  "archives_reviewed": [
+    {
+      "name": "P3/QRU_18_figures_and_appendices.zip",
+      "sha256": "14664ed3ffc92df2c8cb748be618875ceeb2138df15c9774c0874c2d131239c9"
+    },
+    {
+      "name": "P3/QRU_Overleaf_complet.zip",
+      "sha256": "f6fed4088884f1a87f491e3e07fed5ac568e5dd842cf136b452673953a52aea6"
+    },
+    {
+      "name": "P3/QRU_Overleaf_complet_fixed.zip",
+      "sha256": "502670284548a2fa929bdd9f245cf05bf9ddb71ded3ce85fa4ea6a5fee45bcab"
+    },
+    {
+      "name": "P3/QRU_predictive_identifiability_paper.zip",
+      "sha256": "14664ed3ffc92df2c8cb748be618875ceeb2138df15c9774c0874c2d131239c9"
+    },
+    {
+      "name": "P3/REPERTOIRE_TRAVAIL_V5.zip",
+      "sha256": "fe26d865be80924cd3575cd0c85c5957f804be387a328a6f5cae28355f9c607b"
+    },
+    {
+      "name": "P3/V3_25.09.zip",
+      "sha256": "af16a2e97de8d3cd63bc102aad0fdc75b5a4c59fae995f143dcd9f0eb90f8801"
+    },
+    {
+      "name": "P3/V3_PILOT_25.09.zip",
+      "sha256": "889a79a206fbd3bf30dc870b20a96c84d8b1b61c707d84ed08f2409d7b0a8965"
+    },
+    {
+      "name": "P3/V5_2709(1).zip",
+      "sha256": "3ee09cf219b3a185219abd09538f15102a497d397c9e2114c68b09a335771b02"
+    },
+    {
+      "name": "P3/V5_2709.zip",
+      "sha256": "8147c6abef027d2d457301291441d34ae39f9f2ae445e2335dcd9ab337e15ee3"
+    },
+    {
+      "name": "QRU_01_integration.zip",
+      "sha256": "7df99c439f63584e481c90360e849a576a2a84a54085174c261b8b0028064f8b"
+    },
+    {
+      "name": "QRU_02_unified_theme.zip",
+      "sha256": "fd59df79915a0493ab984eb43de40cee50023b9ef88f6704def6962841573163"
+    },
+    {
+      "name": "QRU_03_print_ready.zip",
+      "sha256": "9133b95c9d3e1f1cb03c02bd41df4366fbadc13104c5bd0ba478c8539a8f89a1"
+    },
+    {
+      "name": "QRU_04_concise_body.zip",
+      "sha256": "4014c7c354f07fa603710ef4d410858ec8f701158431f87cea15c8d49638d502"
+    },
+    {
+      "name": "QRU_05_npj_format.zip",
+      "sha256": "6a5b0e9566d6e2158a613a5831c8817eafa95454355b9f4978bf8a9f82b8e70e"
+    },
+    {
+      "name": "QRU_06_references.zip",
+      "sha256": "081905579a62b0825fb03fcfa91d54ff12c1981b428d413d776f685478a4eaa5"
+    },
+    {
+      "name": "QRU_07_contribution_and_narrative.zip",
+      "sha256": "7075448436ab4f6fa5596c31d2b0efde615c85e222c36b73f9e71ac9d58e3422"
+    },
+    {
+      "name": "QRU_08_definitions_and_readability.zip",
+      "sha256": "bea537b598635bb9e3ebe00416dee4814406bad364799a7de78cc56634d5869a"
+    },
+    {
+      "name": "QRU_09_figures_and_legends.zip",
+      "sha256": "5f3f6093d5c6109a5d6e9d6a2d914475fb02058138577008a4cd04e914cfcf9f"
+    },
+    {
+      "name": "QRU_10_grouped_subsections.zip",
+      "sha256": "3b89b66107ec83ca854957a9485d55f29eb82ea13da57cbb684137e62993b1ab"
+    },
+    {
+      "name": "QRU_11_mathematical_transitions.zip",
+      "sha256": "502ff65d1eac298333c19dc0ab2aaebdc3d750632d4eb9f94544be09c99fb66e"
+    },
+    {
+      "name": "QRU_12_final_submission_files.zip",
+      "sha256": "8044c7c5ca69774ffb228bb8ed861730d3e0a6a1439ab07b10e12cea5403972d"
+    },
+    {
+      "name": "QRU_13_verified_references.zip",
+      "sha256": "d3a29f54761071019370ee4a9979f8094789d334b334fc140777808f9291a583"
+    },
+    {
+      "name": "QRU_14_recovered_final.zip",
+      "sha256": "9de7f3ac5da0ca271a8fca6a626a66a55b47f72a32f920e52515e3b44436f615"
+    },
+    {
+      "name": "QRU_15_discussion_research_logic.zip",
+      "sha256": "326fc3be0f843cae411c6c6b4a2e5e0f3c02fd56fdc550fdf7ce780b2941191e"
+    },
+    {
+      "name": "QRU_16_discussion_qru_value.zip",
+      "sha256": "7bc274f83d6140027cfac07dba8b2438de1529bf99bd1d62e091bf49ad79fe56"
+    },
+    {
+      "name": "QRU_17_discussion_scaling_and_future.zip",
+      "sha256": "0038e1832c7370dd17aba5fb695a00c3a5e3a90531427d819a07ed10bc0f2525"
+    },
+    {
+      "name": "QRU_18_figures_and_appendices.zip",
+      "sha256": "14664ed3ffc92df2c8cb748be618875ceeb2138df15c9774c0874c2d131239c9"
+    },
+    {
+      "name": "QRU_Overleaf_annexes_seules.zip",
+      "sha256": "a0d794cb453347abc59fdc7dde3ebf22108d8197e03a42d6d10b2ce43ca7001d"
+    },
+    {
+      "name": "QRU_Overleaf_complet.zip",
+      "sha256": "f6fed4088884f1a87f491e3e07fed5ac568e5dd842cf136b452673953a52aea6"
+    },
+    {
+      "name": "QRU_Overleaf_papier_seul.zip",
+      "sha256": "77df881f97557759df8b19cbe3d1aa6df8c7cceddf304e4bcb1eca36d404fce8"
+    },
+    {
+      "name": "QRU_V2_V3_V4_V5_research(1)(1).zip",
+      "sha256": "1367192992e02483a82e8e016722c38f1bea175b66113b3a6679d75125fda39e"
+    },
+    {
+      "name": "QRU_V2_V3_V4_V5_research(1).zip",
+      "sha256": "a525ecf3ff5b5d1da26ac9ece5d0fcf72fc06f5bcbb768282c631898e95841e4"
+    },
+    {
+      "name": "QRU_V2_V3_V4_V5_research(2).zip",
+      "sha256": "c86bc1d82f66afb59a008a9c52f2323ab4d33d6c26a84b34734cfb6b870761c3"
+    },
+    {
+      "name": "QRU_V2_V3_V4_V5_research.zip",
+      "sha256": "8fc4e3dfa15394fa46821d69a77b691dbf007dbc6e14248f9e4f36cc19204834"
+    },
+    {
+      "name": "QRU_V5_research_with_geometry_visualization(1).zip",
+      "sha256": "b043e6430c5296b30c65427e3eb576caa3a9a8a37c1ae1542a3e7188f581510b"
+    },
+    {
+      "name": "QRU_V5_research_with_geometry_visualization.zip",
+      "sha256": "b043e6430c5296b30c65427e3eb576caa3a9a8a37c1ae1542a3e7188f581510b"
+    },
+    {
+      "name": "QRU_predictive_identifiability_paper.zip",
+      "sha256": "e81c2d3bcbcd1ca81a19a941c272770f7b6ac85209437a0cf9df733c2d7ee944"
+    },
+    {
+      "name": "QRU_revision_checkpoints.zip",
+      "sha256": "ec53f89ecd06a2887615ab99acdab2e9fa7aa3429bf612e19228a11555f57736"
+    },
+    {
+      "name": "V3_PILOT_25.09(1).zip",
+      "sha256": "889a79a206fbd3bf30dc870b20a96c84d8b1b61c707d84ed08f2409d7b0a8965"
+    },
+    {
+      "name": "V3_PILOT_25.09.zip",
+      "sha256": "889a79a206fbd3bf30dc870b20a96c84d8b1b61c707d84ed08f2409d7b0a8965"
+    },
+    {
+      "name": "V4_27.09(1)(1).zip",
+      "sha256": "b255f027ea362495f4d9aa39b5f31816859ca7a6b2a5f424f2df8fd8cb5579b7"
+    },
+    {
+      "name": "V4_27.09(1)(2).zip",
+      "sha256": "b255f027ea362495f4d9aa39b5f31816859ca7a6b2a5f424f2df8fd8cb5579b7"
+    },
+    {
+      "name": "V4_27.09(1).zip",
+      "sha256": "f1cb52668b687108bf53c61182c90e40bf921cdaca0117fdad16144082c4515c"
+    },
+    {
+      "name": "V4_27.09.zip",
+      "sha256": "12a915d6eea9303eb9baaad154fb4530f7526a3b492b4ccb3bb400c7fde1a5ec"
+    },
+    {
+      "name": "V5_2709(1).zip",
+      "sha256": "7da277b29b207c0e89422b48daeac3da25c1188c74eebc2f20395140e4c8f0ef"
+    },
+    {
+      "name": "V5_2709(2).zip",
+      "sha256": "8147c6abef027d2d457301291441d34ae39f9f2ae445e2335dcd9ab337e15ee3"
+    },
+    {
+      "name": "V5_2709.zip",
+      "sha256": "61679d9b38b29f8ac225ea51d84a6639bd79896de59cf2e3609ab380bdfb37db"
+    },
+    {
+      "name": "V5_2709_QPU(1).zip",
+      "sha256": "b6685c26225d52fc710b2dbd757bc2952ebd77524fd4f470f21ae1d4e6ed9e95"
+    },
+    {
+      "name": "V5_2709_QPU.zip",
+      "sha256": "b6685c26225d52fc710b2dbd757bc2952ebd77524fd4f470f21ae1d4e6ed9e95"
+    },
+    {
+      "name": "qru_spectral_adaptation(1).zip",
+      "sha256": "ab90a0e1011cd3ad8384a92463841dfc78291c90a68c7077e2587c3aece66bbf"
+    },
+    {
+      "name": "qru_spectral_adaptation.zip",
+      "sha256": "79ddb5aabf4027761b84a4e8371100b331007a88fd8619665ea7787c297b4a78"
+    },
+    {
+      "name": "qru_spectral_adaptation_final(1).zip",
+      "sha256": "48cf213f04e6cad162d1a9ad672ab04fb470db5a025ac6a2a1a48985bc1a3a72"
+    },
+    {
+      "name": "qru_spectral_adaptation_final(2).zip",
+      "sha256": "48cf213f04e6cad162d1a9ad672ab04fb470db5a025ac6a2a1a48985bc1a3a72"
+    },
+    {
+      "name": "qru_spectral_adaptation_final.zip",
+      "sha256": "d69a936d21ceb9cb54979fdc79ebae260f528b7eee17d78d54dc68667e138579"
+    },
+    {
+      "name": "qru_spectral_adaptation_html.zip",
+      "sha256": "0cb2bd559b1a9fbbaef352996382cb258e9a30a73e128647b5724e2938fcf993"
+    },
+    {
+      "name": "qru_spectral_adaptation_notebook4_rigorous.zip",
+      "sha256": "de9788d0a07e25696160c41c2c20bab37ccf10f010a1a442ceab92092932c09a"
+    },
+    {
+      "name": "qru_spectral_adaptation_notebook4_updated.zip",
+      "sha256": "e0a0bf00ab5dfbc845003e389746e111bc63eb735393ad424f2fe195800535de"
+    },
+    {
+      "name": "qru_spectral_adaptation_stress_test.zip",
+      "sha256": "53916e8895eb4c64432da18073e4eb246abd1f1bb795ce94c176439df13255a8"
+    },
+    {
+      "name": "qru_spectral_adaptation_tomography_updated.zip",
+      "sha256": "ec37ed8b34c4829a1d9a48b8de7d7cdc402dccc11abeaea1066e72e5f121c034"
+    },
+    {
+      "name": "qru_spectral_adaptation_updated.zip",
+      "sha256": "91edea2455098bb5cf08553f45bb0fcb058c6e49b96c7950eff2844088ab1a3e"
+    }
+  ],
+  "reference_tables": [
+    {
+      "file": "results/reference/01_spectral_audit.csv",
+      "rows": 6,
+      "columns": 9,
+      "source_workbook": "01_Spectral_support.xlsx",
+      "source_sheet": "Summary",
+      "source_sha256": "d9ce502544b829e12ae8a249467a78e24c37b193037462595bf78285633817a2",
+      "historical_csv_sha256": "39cfaa52988f15ea80048773581977f1497b9926e99eb66ef36db614ade6cf5d"
+    },
+    {
+      "file": "results/reference/01_spectral_audit_trials.csv",
+      "rows": 300,
+      "columns": 9,
+      "source_workbook": "01_Spectral_support.xlsx",
+      "source_sheet": "Trials",
+      "source_sha256": "d9ce502544b829e12ae8a249467a78e24c37b193037462595bf78285633817a2",
+      "historical_csv_sha256": "e5f787181f39dc0b83a754a68c2728b29f288e0a2d4b8628848fc20fc85f41ed"
+    },
+    {
+      "file": "results/reference/02_spectral_controllability.csv",
+      "rows": 1,
+      "columns": 12,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Summary",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "f54ec30d4014b84dbf43ff3933948122c0072a5b98ef0f32ba8b1df7b3c91fa5"
+    },
+    {
+      "file": "results/reference/02_controllability_stress_summary.csv",
+      "rows": 25,
+      "columns": 10,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Target_summary",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "4abc8e56bba0b12a4fc3ff2c7c9c082474f0abfd7c76bfe727ac594eb86f24c8"
+    },
+    {
+      "file": "results/reference/02_budget_sweep_summary.csv",
+      "rows": 18,
+      "columns": 8,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Budget_summary",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "09974285dcdbf61452eb2a64b9d786228d21eff89075533f7713eb508a443f7e"
+    },
+    {
+      "file": "results/reference/02_controllability_correlations_by_delta.csv",
+      "rows": 5,
+      "columns": 4,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Correlations",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "237c12eed4a5a1f5cadb58b231c319539a8b557bc93efb342db40a9d86d9f6c1"
+    },
+    {
+      "file": "results/reference/02_structural_targets.csv",
+      "rows": 4,
+      "columns": 5,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Forbidden_frequency",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "d7957453c1c85577cfe61c8d626b89d48f9d660b39c4653ba209e7ab7a6e59dc"
+    },
+    {
+      "file": "results/reference/02_locality_sweep.csv",
+      "rows": 11,
+      "columns": 2,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Linearization",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "26b0fad4b6f9dd5a9d7ec48231b1c68464a265f66351cfe1705f36a31da997d9"
+    },
+    {
+      "file": "results/reference/02_rank_landscape.csv",
+      "rows": 1000,
+      "columns": 6,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Rank_trials",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "5ae7f8055acc9a4c75668eb55e2c945b0c3997a02dd9a05028eef41f4099459a"
+    },
+    {
+      "file": "results/reference/02_controllability_targets.csv",
+      "rows": 200,
+      "columns": 13,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Target_trials",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "05a406d4b9bb9e13c126623e74657c62cfb4e3c7584c71ee36b8d9a88aaa6314"
+    },
+    {
+      "file": "results/reference/02_budget_sweep.csv",
+      "rows": 144,
+      "columns": 10,
+      "source_workbook": "02_Local_controllability.xlsx",
+      "source_sheet": "Budget_trials",
+      "source_sha256": "e20a6d14d7590a6b6bb7d341e7e6dbea47873fbcf9c4ba91fbb832ff715c9db0",
+      "historical_csv_sha256": "0ad79cdec864b0103243f17733ca43b092e8b9caa875327f6ccaa27f6c90bdb0"
+    },
+    {
+      "file": "results/reference/03_path_tomography.csv",
+      "rows": 1,
+      "columns": 9,
+      "source_workbook": "03_Path_tomography.xlsx",
+      "source_sheet": "Summary",
+      "source_sha256": "9e301fcfbf1247aa031bdd1ca3b713ef11d63f9d09fc4ff4e203b22f9204cf80",
+      "historical_csv_sha256": "93e03ecd3d7d22cf599fd1b9737cbc824a4a021819ece900c7fe97a856a5f17c"
+    },
+    {
+      "file": "results/reference/03_phase_complexity.csv",
+      "rows": 4,
+      "columns": 9,
+      "source_workbook": "03_Path_tomography.xlsx",
+      "source_sheet": "Phase_design",
+      "source_sha256": "9e301fcfbf1247aa031bdd1ca3b713ef11d63f9d09fc4ff4e203b22f9204cf80",
+      "historical_csv_sha256": "7ba3378ec6b64978e7df74f42797de78f343a09c36f66f6de427d6e9c772c638"
+    },
+    {
+      "file": "results/reference/03_alias_sweep.csv",
+      "rows": 10,
+      "columns": 3,
+      "source_workbook": "03_Path_tomography.xlsx",
+      "source_sheet": "Aliasing",
+      "source_sha256": "9e301fcfbf1247aa031bdd1ca3b713ef11d63f9d09fc4ff4e203b22f9204cf80",
+      "historical_csv_sha256": "5685b095c7a2f2747352be4cff9599f4a5915de02c6c1511ab65e44f1274ca73"
+    },
+    {
+      "file": "results/reference/03_factorization_stress.csv",
+      "rows": 100,
+      "columns": 4,
+      "source_workbook": "03_Path_tomography.xlsx",
+      "source_sheet": "Factorization_trials",
+      "source_sha256": "9e301fcfbf1247aa031bdd1ca3b713ef11d63f9d09fc4ff4e203b22f9204cf80",
+      "historical_csv_sha256": "9e7c8e90d4d366f78962923892849e4583dee42f581ccfc9d3c105d9abbe729d"
+    },
+    {
+      "file": "results/reference/03_path_recovery_stress.csv",
+      "rows": 200,
+      "columns": 8,
+      "source_workbook": "03_Path_tomography.xlsx",
+      "source_sheet": "Recovery_trials",
+      "source_sha256": "9e301fcfbf1247aa031bdd1ca3b713ef11d63f9d09fc4ff4e203b22f9204cf80",
+      "historical_csv_sha256": "7889e820bfbe1daa5b4d1299e785714fde3fe809046a69f6cf38ea61adca573d"
+    },
+    {
+      "file": "results/reference/03_spectral_transport.csv",
+      "rows": 120,
+      "columns": 4,
+      "source_workbook": "03_Path_tomography.xlsx",
+      "source_sheet": "Transport_trials",
+      "source_sha256": "9e301fcfbf1247aa031bdd1ca3b713ef11d63f9d09fc4ff4e203b22f9204cf80",
+      "historical_csv_sha256": "92f70d03a2c72bf052b8fe55ad847e12e0491b3f6f17af2451173eddd431756e"
+    },
+    {
+      "file": "results/reference/04_retrain_vs_reconfigure.csv",
+      "rows": 1,
+      "columns": 17,
+      "source_workbook": "04_Adaptive_reconfiguration.xlsx",
+      "source_sheet": "Summary",
+      "source_sha256": "b3357b362d26ccaff36dea8eddb83785bee99717c3856988b62f7273b668abcb",
+      "historical_csv_sha256": "6c98dabe67029f7ae0e869d642dbcec82f084a6383cfa6d251fa6a48d6d866f7"
+    },
+    {
+      "file": "results/reference/04_matched_drift_summary.csv",
+      "rows": 3,
+      "columns": 14,
+      "source_workbook": "04_Adaptive_reconfiguration.xlsx",
+      "source_sheet": "Matched_summary",
+      "source_sha256": "b3357b362d26ccaff36dea8eddb83785bee99717c3856988b62f7273b668abcb",
+      "historical_csv_sha256": "b54591993f0c2fa1c95b1ed324ce0cf95a291dbeea58529bcf03cfd22b2ae029"
+    },
+    {
+      "file": "results/reference/04_controlled_cases.csv",
+      "rows": 3,
+      "columns": 29,
+      "source_workbook": "04_Adaptive_reconfiguration.xlsx",
+      "source_sheet": "Canonical_cases",
+      "source_sha256": "b3357b362d26ccaff36dea8eddb83785bee99717c3856988b62f7273b668abcb",
+      "historical_csv_sha256": "4c6315e13b58ac52266469205d923663ca8ad87dc5dc565de5273d8782a1084d"
+    },
+    {
+      "file": "results/reference/04_negative_controls.csv",
+      "rows": 2,
+      "columns": 9,
+      "source_workbook": "04_Adaptive_reconfiguration.xlsx",
+      "source_sheet": "Negative_controls",
+      "source_sha256": "b3357b362d26ccaff36dea8eddb83785bee99717c3856988b62f7273b668abcb",
+      "historical_csv_sha256": "74fc0584d7940e65d86c03b5005258c21a0e2877a6995f2e9b6a1215f2f43448"
+    },
+    {
+      "file": "results/reference/04_trust_region_locality_summary.csv",
+      "rows": 12,
+      "columns": 14,
+      "source_workbook": "04_Adaptive_reconfiguration.xlsx",
+      "source_sheet": "Locality_summary",
+      "source_sha256": "b3357b362d26ccaff36dea8eddb83785bee99717c3856988b62f7273b668abcb",
+      "historical_csv_sha256": "60ac1d12e1709f6ed630f15234722b081874a0657fcfc47f3f66e6e10851abbb"
+    },
+    {
+      "file": "results/reference/04_Jalpha_validation.csv",
+      "rows": 50,
+      "columns": 3,
+      "source_workbook": "04_Adaptive_reconfiguration.xlsx",
+      "source_sheet": "Jacobian_trials",
+      "source_sha256": "b3357b362d26ccaff36dea8eddb83785bee99717c3856988b62f7273b668abcb",
+      "historical_csv_sha256": "9085f2c5b3a36696c5ef1ddc18d4ac53ad7139edf3809f5f4924dc016155b07d"
+    },
+    {
+      "file": "results/reference/04_matched_drift_stress.csv",
+      "rows": 60,
+      "columns": 34,
+      "source_workbook": "04_Adaptive_reconfiguration.xlsx",
+      "source_sheet": "Matched_trials",
+      "source_sha256": "b3357b362d26ccaff36dea8eddb83785bee99717c3856988b62f7273b668abcb",
+      "historical_csv_sha256": "140643ebe3d5a27d73d2f998af05bebeda785f962c911819200f8cea84fd2da7"
+    },
+    {
+      "file": "results/reference/04_trust_region_locality.csv",
+      "rows": 180,
+      "columns": 19,
+      "source_workbook": "04_Adaptive_reconfiguration.xlsx",
+      "source_sheet": "Locality_trials",
+      "source_sha256": "b3357b362d26ccaff36dea8eddb83785bee99717c3856988b62f7273b668abcb",
+      "historical_csv_sha256": "ad3df900a26567c32314c5180f3b864e45a76f9a118c96b4d146441dbeaa4d8d"
+    },
+    {
+      "file": "results/pilots/windows.csv",
+      "rows": 540,
+      "columns": 26,
+      "source_workbook": "05_V3_pilot.xlsx",
+      "source_sheet": "Windows",
+      "source_sha256": "b85f3c951dcff19eef4ba82ea7ea52b97a7278b8c4f88c9e2f9159d605b3d130"
+    },
+    {
+      "file": "results/pilots/calibration.csv",
+      "rows": 300,
+      "columns": 10,
+      "source_workbook": "05_V3_pilot.xlsx",
+      "source_sheet": "Calibration",
+      "source_sha256": "b85f3c951dcff19eef4ba82ea7ea52b97a7278b8c4f88c9e2f9159d605b3d130"
+    },
+    {
+      "file": "results/pilots/geometry.csv",
+      "rows": 360,
+      "columns": 10,
+      "source_workbook": "05_V3_pilot.xlsx",
+      "source_sheet": "Geometry",
+      "source_sha256": "b85f3c951dcff19eef4ba82ea7ea52b97a7278b8c4f88c9e2f9159d605b3d130"
+    },
+    {
+      "file": "results/pilots/jacobian_cost.csv",
+      "rows": 36,
+      "columns": 6,
+      "source_workbook": "05_V3_pilot.xlsx",
+      "source_sheet": "Jacobian_cost",
+      "source_sha256": "b85f3c951dcff19eef4ba82ea7ea52b97a7278b8c4f88c9e2f9159d605b3d130"
+    },
+    {
+      "file": "results/pilots/penalty_selection.csv",
+      "rows": 144,
+      "columns": 5,
+      "source_workbook": "05_V3_pilot.xlsx",
+      "source_sheet": "Penalty_selection",
+      "source_sha256": "b85f3c951dcff19eef4ba82ea7ea52b97a7278b8c4f88c9e2f9159d605b3d130"
+    },
+    {
+      "file": "results/pilots/penalty_scores.csv",
+      "rows": 4,
+      "columns": 2,
+      "source_workbook": "05_V3_pilot.xlsx",
+      "source_sheet": "Penalty_scores",
+      "source_sha256": "b85f3c951dcff19eef4ba82ea7ea52b97a7278b8c4f88c9e2f9159d605b3d130"
+    },
+    {
+      "file": "results/pilots/trajectories.csv",
+      "rows": 19585,
+      "columns": 11,
+      "source_workbook": "06_V5_research.xlsx",
+      "source_sheet": "Trajectories",
+      "source_sha256": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485"
+    },
+    {
+      "file": "results/pilots/schur_checks.csv",
+      "rows": 150,
+      "columns": 7,
+      "source_workbook": "06_V5_research.xlsx",
+      "source_sheet": "Schur_checks",
+      "source_sha256": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485"
+    },
+    {
+      "file": "results/pilots/info_geometry.csv",
+      "rows": 576,
+      "columns": 11,
+      "source_workbook": "06_V5_research.xlsx",
+      "source_sheet": "Info_geometry",
+      "source_sha256": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485"
+    },
+    {
+      "file": "results/pilots/info_jets.csv",
+      "rows": 72,
+      "columns": 4,
+      "source_workbook": "06_V5_research.xlsx",
+      "source_sheet": "Info_jets",
+      "source_sha256": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485"
+    },
+    {
+      "file": "results/pilots/info_slopes.csv",
+      "rows": 72,
+      "columns": 5,
+      "source_workbook": "06_V5_research.xlsx",
+      "source_sheet": "Info_slopes",
+      "source_sha256": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485"
+    },
+    {
+      "file": "results/pilots/stream_windows.csv",
+      "rows": 12672,
+      "columns": 17,
+      "source_workbook": "06_V5_research.xlsx",
+      "source_sheet": "Stream_windows",
+      "source_sha256": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485"
+    },
+    {
+      "file": "results/pilots/v5_stream_windows.csv",
+      "rows": 5760,
+      "columns": 10,
+      "source_workbook": "06_V5_research.xlsx",
+      "source_sheet": "V5_Stream_windows",
+      "source_sha256": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485"
+    }
+  ],
+  "sources": {
+    "qru/adaptation.py": {
+      "source": "src/adaptation.py",
+      "source_sha256": "7d4fc65de222e61a4cd7a8e8591c3c0d98a8bcb8358fece4268e032399e37753"
+    },
+    "qru/latent_twins.py": {
+      "source": "src/v5_latent_twins.py",
+      "source_sha256": "49511e30f4663090dafa953fe1342ab4bafa02990531bbb0970ba951d3dcf2b5"
+    },
+    "qru/observability.py": {
+      "source": "src/v5_observability.py",
+      "source_sha256": "179f8d9d40c3c7ff1150c0927da7305d3e2db3c6e64e4a9561cdf702fb33fadb"
+    },
+    "qru/local_stream.py": {
+      "source": "src/v4_stream.py",
+      "source_sha256": "22f441b55e30edbadb7fa781e6a8f5b017d87abb884447ea67824703b90a5d3b"
+    },
+    "qru/controllability.py": {
+      "source": "src/controllability.py",
+      "source_sha256": "5b6c277b79b397d171c0231ed94ba07e8ebf2ad6b16b97c257f9bf030736b4d8"
+    },
+    "qru/studies.py": {
+      "source": "src/studies.py",
+      "source_sha256": "95477a35485452a3106b7e9dc48a0f0aad15c8f790f614aa46cdcdf35527a8dd"
+    },
+    "qru/local_information.py": {
+      "source": "src/v4_identifiability.py",
+      "source_sha256": "3fccae03565ad26a68c580cb89e999170ecc5209cf4baaf4dbe0286ddf9c84cb"
+    },
+    "qru/predictive_identifiability.py": {
+      "source": "src/v5_predictive_identifiability.py",
+      "source_sha256": "ac219c7460a530d8cb30187c4c79bfad7001abdead3a23ff14a97c9b36163380"
+    },
+    "qru/pilot_geometry.py": {
+      "source": "src/v3_pilot.py",
+      "source_sha256": "c6d5ad7e00fc893dc810761e2836863f4e862e7f5d239f9dc37aad33baf77d44"
+    },
+    "qru/classical_stream.py": {
+      "source": "src/v4_classical.py",
+      "source_sha256": "d7e24b2c13b243b377177bedaa06e8abaaddf33ba52d7d543be01f4d8c6bb410"
+    },
+    "qru/optimizer.py": {
+      "source": "src/v4_optimizer.py",
+      "source_sha256": "3ce74aaad41bc4f20562a761af2d08c82f8860408ef61576dd740785de0288ca"
+    },
+    "qru/tomography.py": {
+      "source": "src/tomography.py",
+      "source_sha256": "b49f07fed735b495a732038db0638562ba29c97105f785ddbaafd3cdd8ec26bd"
+    },
+    "qru/spectral.py": {
+      "source": "src/spectral.py",
+      "source_sha256": "37c34f465e81fbd1418743bb361387b01ed2d06d757f9c22baf6b701c41bde3a"
+    },
+    "qru/finite_alternatives.py": {
+      "source": "src/v5_feasibility.py",
+      "source_sha256": "f9b08aec6c5e4fb3ca6d8cab6915c7e59152065e6364d862cc73ca240015b193"
+    },
+    "qru/training.py": {
+      "source": "src/experiments.py",
+      "source_sha256": "e70fdd7c385e1eecd40a1b726d958c9d41371c8e4a1dada6529817ae88ac13f5"
+    },
+    "qru/circuit.py": {
+      "source": "src/qru.py",
+      "source_sha256": "7b55abf4c86ea17c8411d001f3a859bff9af5d8431375418ebf8877562eda5b1"
+    },
+    "qru/__init__.py": {
+      "source": "src/__init__.py",
+      "source_sha256": "fa92eaf54b2c5a6e1df349db73fb9a6e4bca2dc647a0033109335c6df52cff14"
+    },
+    "qru/results_io.py": {
+      "source": "src/results_io.py",
+      "source_sha256": "25898b207a290c54503965ffc1ffdf004a2b22b803c304f175e4dccb565d8dd2"
+    },
+    "qru/detectability.py": {
+      "source": "src/v5_detection_risk.py",
+      "source_sha256": "41aaa4ddaae31f3702d67e14ccac2c531a7455e989a5bdf72f53e771277ebc06"
+    },
+    "experiments/predictive_identifiability.py": {
+      "source": "scripts/run_v5_predictive_identifiability.py",
+      "source_sha256": "0b009acf4272c6d15548f2be133543e5c7f212230cb4c757db09f97ce44c231a"
+    },
+    "experiments/local_information.py": {
+      "source": "scripts/run_v4_identifiability.py",
+      "source_sha256": "0f89c044a36a24159f1159cbbb8703f6d61d7f87f13b886b2e325243bb89eded"
+    },
+    "experiments/detectability.py": {
+      "source": "scripts/run_v5_detection_risk.py",
+      "source_sha256": "f3aa0e65eeb8664c8e9cde77be10ca968c727bf5ffd3f37c4eb084f59e885a85"
+    },
+    "experiments/local_stream.py": {
+      "source": "scripts/run_v4_stream.py",
+      "source_sha256": "ac76879268fb3ec4fadb4749ca535ba2c600335cc46c504d8130b6435170fa54"
+    },
+    "experiments/pilot_geometry.py": {
+      "source": "scripts/run_v3_pilot.py",
+      "source_sha256": "a3094ab4c92a4f0b6d6d06bc6245792100f316d58f697123c6ea932410368a6e"
+    },
+    "experiments/latent_twins.py": {
+      "source": "scripts/run_v5_latent_twins.py",
+      "source_sha256": "7c32a5068a3ea8f8e0195d762261a26eb8419ab8e24e4be2e2ed08f95d05943b"
+    },
+    "experiments/classical_stream.py": {
+      "source": "scripts/run_v4_classical.py",
+      "source_sha256": "be05531aab986db1d8b9f7766fb0f277b898dc54243d98d5127b92fd35113ac8"
+    },
+    "experiments/finite_alternatives.py": {
+      "source": "scripts/run_v5_feasibility.py",
+      "source_sha256": "fa4cf1429f8950396514652ab0b4672af6fae9dd710ef0727c54288b35cabb98"
+    },
+    "hardware/probe.py": {
+      "source": "scripts/run_v5_hardware_probe.py",
+      "source_sha256": "adf86b3bc91aebe074e4cb959d0b489c9a4459367437e4e340b40a301d1ae584"
+    },
+    "experiments/observability.py": {
+      "source": "scripts/run_v5_observability.py",
+      "source_sha256": "7e5e5e6fcbd0b9f0e14e8dd4e04e81d9a796cd5466099d72471645aec8fc6d65"
+    },
+    "experiments/optimizer.py": {
+      "source": "scripts/run_v4_optimizer.py",
+      "source_sha256": "33e5173fe9f993ca87a1c98e3a18ff76f2cf2403e5c773ad054e2d4a899964f1"
+    },
+    "qru/two_qubit.py": {
+      "source": "scripts/run_v5_twoqubit.py",
+      "source_sha256": "d5684629a12a569db3ada057e7f4ce936c821bd09bd1181c54de83c029944654"
+    },
+    "data/real_series.json": {
+      "source": "data/real_series.json",
+      "source_sha256": "d6393f42b41d1c18b2b800bda6aac3ea626fb6bb571b11619a4df5f926400a3c"
+    },
+    "results/predictive/latent_twins.json": {
+      "source": "runs/v5_latent_twins.json",
+      "source_sha256": "7dea15972f5110a2a9f11d44a86d20b23d494ed496e99d54aa5298523bcb315a"
+    },
+    "results/predictive/streams.json": {
+      "source": "runs/v5_predictive_identifiability.json",
+      "source_sha256": "6be2e51744e9cad6abacad01e175bed5b7897228697bf0412508d766c5032e13"
+    },
+    "data/main_figure_data.json": {
+      "source": "publication_figures/evidence/main_figure_data.json",
+      "source_sha256": "1e03bfe00f1f688f27fae1ac4c3c3306869fd1269eaa12877f80fdee54532e26"
+    },
+    "data/supporting_figure_data.json": {
+      "source": "publication_figures/evidence/supporting_figure_data.json",
+      "source_sha256": "40f4022b0e667a60a6d3043ca40aeacab18447f8f45073dbe4d69781b7e075ce"
+    },
+    "results/hardware/qpu_baseline.json": {
+      "source": "publication_figures/evidence/qpu_baseline.json",
+      "source_sha256": "7fd6a62359c99df566c7ae77bb25eaca6a504c5ad5838ee274dd484095da942f"
+    },
+    "results/hardware/qpu_baseline_rep2.json": {
+      "source": "publication_figures/evidence/qpu_baseline_rep2.json",
+      "source_sha256": "b03073f3c164e27ac360115639681d4ef36fa752f53f4a74aea8f7961630ef64"
+    },
+    "figures/build_main_figures.py": {
+      "source": "publication_figures/build_main_figures.py",
+      "source_sha256": "09f8c8cc90652239f97e1b80b7f6f910553c2f71e8cc1d4a192ac3d28cc7545b"
+    },
+    "figures/build_supporting_figures.py": {
+      "source": "publication_figures/build_supporting_figures.py",
+      "source_sha256": "390d74861b04a8673ed7b685634b2b296bdeb28423508f0bd13d6f7fa8e41e7d"
+    },
+    "figures/build_figures.py": {
+      "source": "publication_figures/build_figures.py",
+      "source_sha256": "26d9516730498addd8dc34f6f943db5f50cf341dfdc885d87eed687b60b35edc"
+    },
+    "figures/build_research_roadmap.py": {
+      "source": "publication_figures/build_research_roadmap.py",
+      "source_sha256": "c305118d864823b5350415f099de5049ad348b27f01e9b2c54b9fb246fa09008"
+    },
+    "figures/figure_style.py": {
+      "source": "publication_figures/figure_style.py",
+      "source_sha256": "d36f1715f508274708b20df2fc0bbf0887f30687e22dbb82e8203e680d136d66"
+    }
+  },
+  "changes": "Core algorithms retained; modules renamed, CSV replaces XLSX loading, paths and experiment/figure entry points adapted. Duplicate twin and stream blocks in plotting caches replaced by views of the frozen records.",
+  "reference_scope": "Historical trial values are frozen. Aliased tomography recovery errors do not reproduce at trial level; they are not used for article claims.",
+  "related_archive_checked": {
+    "name": "QRU-QAOA-ACM-TQC.zip",
+    "sha256": "9cce658050e5b7522249a6014750a3c39a13321ff9e8cd2a802a5b8a96e9b53e",
+    "scope": "Separate flood-risk QRU/QAOA project, not a source for the spectral-identifiability article."
+  },
+  "frozen_sha256": {
+    "data/main_figure_data.json": "b1ae09b9b3b8ff65c69b041f05de13b64765697a6e6fd76fb13c59ba59acc6ef",
+    "data/real_series.json": "d6393f42b41d1c18b2b800bda6aac3ea626fb6bb571b11619a4df5f926400a3c",
+    "data/supporting_figure_data.json": "8d1b0402127eee9e19b00a3ccbdcfee6e2511e9b79201ed5fad16f1657e16b86",
+    "results/hardware/qpu_baseline.json": "7fd6a62359c99df566c7ae77bb25eaca6a504c5ad5838ee274dd484095da942f",
+    "results/hardware/qpu_baseline_rep2.json": "b03073f3c164e27ac360115639681d4ef36fa752f53f4a74aea8f7961630ef64",
+    "results/pilots/calibration.csv": "c142526c8a39430bf1e547f18e58d1ee5f0100d7e96d6205f17cf1a5be6bce0c",
+    "results/pilots/geometry.csv": "3dc09905078830c3e45be08c5dc5445e475e46579ce124de2fa8ebe2b547499a",
+    "results/pilots/info_geometry.csv": "813f562498e341269cd7966dd29047670bd2eb9a068577768e5925df2c2a7e09",
+    "results/pilots/info_jets.csv": "a99b0403e1350bbf6c3bfad8a010fac5c35e4d79d21bacce47b3c8b2147053fd",
+    "results/pilots/info_slopes.csv": "bae9a0342372e4571f7a01a7a03e0f8fd086ed07899829c64a8646aab27d9c9e",
+    "results/pilots/jacobian_cost.csv": "560d8b2a1b4c6a803de616a2c1e20277efbbc30250f79d3ff6186053890d98aa",
+    "results/pilots/penalty_scores.csv": "4d1a348598334625cf154e6dacc45357c9a5a2ed6f2214f210ba0adc8acf8945",
+    "results/pilots/penalty_selection.csv": "df94b2756f8a7718f97900b3d5315913cd1d605a544c73045fa11047f1302da5",
+    "results/pilots/schur_checks.csv": "e3f44d17a9a1de288354aead332082735473b18c97f935fdd5dbd1b897fafb00",
+    "results/pilots/stream_windows.csv": "f26f38f09d7584ed6138d1bb98a5296043460bc0f9000c0108965f3a90a814a4",
+    "results/pilots/trajectories.csv": "4aeafbbfe68e6e3f900f4d74e4334c6c6f7094a95e70ef51759a32908221ac7d",
+    "results/pilots/v5_stream_windows.csv": "21919dcb29774256fee21ce71e898d28a371e62dea2c6686816266e8145a3321",
+    "results/pilots/windows.csv": "ffcea5827fa401c86a9343f4e259f9f050ca901636e541bbf30ac4508ec1316d",
+    "results/predictive/latent_twins.json": "7dea15972f5110a2a9f11d44a86d20b23d494ed496e99d54aa5298523bcb315a",
+    "results/predictive/streams.json": "6be2e51744e9cad6abacad01e175bed5b7897228697bf0412508d766c5032e13",
+    "results/reference/01_spectral_audit.csv": "39cfaa52988f15ea80048773581977f1497b9926e99eb66ef36db614ade6cf5d",
+    "results/reference/01_spectral_audit_trials.csv": "e5f787181f39dc0b83a754a68c2728b29f288e0a2d4b8628848fc20fc85f41ed",
+    "results/reference/02_budget_sweep.csv": "0ad79cdec864b0103243f17733ca43b092e8b9caa875327f6ccaa27f6c90bdb0",
+    "results/reference/02_budget_sweep_summary.csv": "09974285dcdbf61452eb2a64b9d786228d21eff89075533f7713eb508a443f7e",
+    "results/reference/02_controllability_correlations_by_delta.csv": "237c12eed4a5a1f5cadb58b231c319539a8b557bc93efb342db40a9d86d9f6c1",
+    "results/reference/02_controllability_stress_summary.csv": "4abc8e56bba0b12a4fc3ff2c7c9c082474f0abfd7c76bfe727ac594eb86f24c8",
+    "results/reference/02_controllability_targets.csv": "05a406d4b9bb9e13c126623e74657c62cfb4e3c7584c71ee36b8d9a88aaa6314",
+    "results/reference/02_locality_sweep.csv": "26b0fad4b6f9dd5a9d7ec48231b1c68464a265f66351cfe1705f36a31da997d9",
+    "results/reference/02_rank_landscape.csv": "5ae7f8055acc9a4c75668eb55e2c945b0c3997a02dd9a05028eef41f4099459a",
+    "results/reference/02_spectral_controllability.csv": "9abc156ea40ee74462fbe006edfd480a59f914ff9f41ce4f457a32c030a06f99",
+    "results/reference/02_structural_targets.csv": "d7957453c1c85577cfe61c8d626b89d48f9d660b39c4653ba209e7ab7a6e59dc",
+    "results/reference/03_alias_sweep.csv": "5685b095c7a2f2747352be4cff9599f4a5915de02c6c1511ab65e44f1274ca73",
+    "results/reference/03_factorization_stress.csv": "62dd46116f8f00e4be82903964b6ddef035002c2c74a38d80dd0e7d90770c1f2",
+    "results/reference/03_path_recovery_stress.csv": "7889e820bfbe1daa5b4d1299e785714fde3fe809046a69f6cf38ea61adca573d",
+    "results/reference/03_path_tomography.csv": "5f5d0099e652868d594d5c20715bb32dd63bb6db5d1117324abd40090b6c5bd1",
+    "results/reference/03_phase_complexity.csv": "7ba3378ec6b64978e7df74f42797de78f343a09c36f66f6de427d6e9c772c638",
+    "results/reference/03_spectral_transport.csv": "92f70d03a2c72bf052b8fe55ad847e12e0491b3f6f17af2451173eddd431756e",
+    "results/reference/04_Jalpha_validation.csv": "9085f2c5b3a36696c5ef1ddc18d4ac53ad7139edf3809f5f4924dc016155b07d",
+    "results/reference/04_controlled_cases.csv": "4c6315e13b58ac52266469205d923663ca8ad87dc5dc565de5273d8782a1084d",
+    "results/reference/04_matched_drift_stress.csv": "140643ebe3d5a27d73d2f998af05bebeda785f962c911819200f8cea84fd2da7",
+    "results/reference/04_matched_drift_summary.csv": "b42a04eac20c60c2762b3b3a5168a55e352d5d04b468ebd40012640c68f13420",
+    "results/reference/04_negative_controls.csv": "74fc0584d7940e65d86c03b5005258c21a0e2877a6995f2e9b6a1215f2f43448",
+    "results/reference/04_retrain_vs_reconfigure.csv": "5eb115bf9813b852810e0de9d5d74cb1f4c98ae1a8d67c20ddbf2c5c87bf6e7a",
+    "results/reference/04_trust_region_locality.csv": "ad3df900a26567c32314c5180f3b864e45a76f9a118c96b4d146441dbeaa4d8d",
+    "results/reference/04_trust_region_locality_summary.csv": "60ac1d12e1709f6ed630f15234722b081874a0657fcfc47f3f66e6e10851abbb"
+  }
+}

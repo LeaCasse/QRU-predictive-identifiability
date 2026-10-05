@@ -1,0 +1,3 @@
+case,expected,decision,correct,support_mismatch,Dperp,G_arch,e_aug,selected_test_mse
+same_support_high_Dperp,theta_update,theta_update,True,6.8304661574727806e-15,0.9999999999999979,0.0399206276558457,0.9798364008058438,0.001600055348455178
+structural_unaddressable,global_architecture_search,global_architecture_search,True,0.9999999999999978,0.9999999999999979,0.0005375239318223812,0.9997312019078795,0.0016005059176003719

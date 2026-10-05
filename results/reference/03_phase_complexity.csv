@@ -1,0 +1,5 @@
+schedule,L,paths,distinct_frequencies,max_collision_multiplicity,min_phase_settings,full_bias_grid,phase_setting_reduction,x_spectrum_condition
+harmonic_L3,3,18,11,2,3,27,9.0,1.0000000000000007
+dyadic_L3,3,18,8,3,5,27,5.4,1.0000000000000007
+dyadic_L4,4,54,16,5,7,81,11.571428571428571,1.0000000000000009
+incommensurate_L3,3,18,18,1,1,27,27.0,1469800.873125386
