@@ -29,7 +29,7 @@ def illustrative_example(data):
         'input_grid': '513 equally spaced inputs in [0,2pi]',
         'future_rms': mse**.5, 'future_mse': mse,
         'future_risk_lower_bound': mse/4,
-        'derivation': 'Exact twin identities with the same circuit parameters as exact, only the illustrative transverse encoding change is enlarged. Archived exact and regular-twin records remain unchanged.'}
+        'derivation': 'Exact twin responses at transverse displacement delta=0.05 on the stated input grid.'}
     return data
 
 
@@ -294,4 +294,4 @@ if __name__=='__main__':
     for function in (mechanism,local_observability,collision_moments,phase_information,streams):function(data)
     from build_research_roadmap import main as research_roadmap
     research_roadmap()
-    print('Verified archived rows and rebuilt six main figures (vector PDF + 300 dpi PNG).')
+    print('Built six main figures (vector PDF + 300 dpi PNG).')

@@ -1,19 +1,16 @@
 {
   "provenance": {
-    "sources": {
-      "results/06_V5_research.xlsx": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485",
-      "runs/v5_latent_twins.json": "7dea15972f5110a2a9f11d44a86d20b23d494ed496e99d54aa5298523bcb315a",
-      "runs/v5_predictive_identifiability.json": "6be2e51744e9cad6abacad01e175bed5b7897228697bf0412508d766c5032e13",
-      "src/qru.py": "7b55abf4c86ea17c8411d001f3a859bff9af5d8431375418ebf8877562eda5b1",
-      "src/tomography.py": "b49f07fed735b495a732038db0638562ba29c97105f785ddbaafd3cdd8ec26bd",
-      "src/v5_detection_risk.py": "41aaa4ddaae31f3702d67e14ccac2c531a7455e989a5bdf72f53e771277ebc06"
-    },
-    "future_Q": "uniform empirical measure on 513 equally spaced sites in [0,2pi]",
-    "seven_site_design": "seven equally spaced narrow sites; not six old sites plus one",
-    "added_calculations": [
-      "current and parallel RMS using stored twin parameters",
-      "independent path tangent check for archived seeds",
-      "analytic two-branch Bernoulli posterior risk"
+    "inputs": [
+      "results/predictive/latent_twins.json",
+      "results/predictive/streams.json",
+      "results/reference/"
+    ],
+    "future_Q": "Uniform empirical measure on 513 equally spaced inputs in [0,2pi]",
+    "seven_site_design": "Seven equally spaced inputs in the narrow window",
+    "calculations": [
+      "Current and parallel RMS from circuit parameters",
+      "Path derivatives from the tagged expansion",
+      "Exact two-branch Bernoulli posterior risk"
     ]
   },
   "architecture": [
@@ -2310,6 +2307,6 @@
     "future_rms": 0.12093276823297766,
     "future_mse": 0.01462473443249109,
     "future_risk_lower_bound": 0.0036561836081227725,
-    "derivation": "Exact twin identities with the same circuit parameters as exact, only the illustrative transverse encoding change is enlarged. Archived exact and regular-twin records remain unchanged."
+    "derivation": "Exact twin responses at transverse schedule displacement delta=0.05 on the specified input grid."
   }
 }

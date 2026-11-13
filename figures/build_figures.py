@@ -112,8 +112,7 @@ def main():
         a.set_xlabel('Input x'); a.set_ylabel(r'$\langle Z\rangle$'); a.legend(fontsize=7)
     save(fig, dest, 'appendix_C1_path_tomography.pdf')
 
-    # Appendix C2: original V2 phase-code design, displaying rank rather than
-    # historically discrepant row-level aliasing reconstruction errors.
+    # Appendix C2: fixed-code rank and unresolved alias-class counts.
     designs=sd['designs'];alias=sd['alias']
     fig, ax = plt.subplots(1, 2, figsize=(6.4, 2.45), constrained_layout=True)
     for i, r in enumerate(designs):
@@ -206,7 +205,7 @@ def main():
     ax.set_xticks([1, 2, 3, 4]);ax.set_xlabel('Depth L')
     ax.set_ylabel('First visible input Taylor order m');ax.legend(fontsize=8)
     save(fig, dest, 'appendix_E1_observability_orders.pdf')
-    # Appendix F: use archived budget outcomes; no claim about universally tuned optimizers.
+    # Appendix F: matched acquisition and training budgets.
     fig, ax = plt.subplots(figsize=(6.4, 2.65), constrained_layout=True)
     methods = sorted({r['method'] for r in budget if r['experiment'] == 'local_shift'
                       and r['case'] == 'mixed'})
@@ -255,7 +254,7 @@ def main():
     ax.legend(fontsize=7, ncol=2, loc='upper left')
     ax.grid(axis='y', color='.9', lw=.5)
     save(fig, dest, 'appendix_H1_real_series.pdf')
-    print('Rebuilt nine historical appendix figures from frozen records and raw hardware counts.')
+    print('Built nine appendix figures from reference records and raw hardware counts.')
 
 
 if __name__ == '__main__':

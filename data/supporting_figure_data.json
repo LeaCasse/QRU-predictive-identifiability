@@ -6166,13 +6166,11 @@
     ]
   },
   "provenance": {
-    "source_sha256": {
-      "results/06_V5_research.xlsx": "ada8ed4967d115f0de9ed25adda61bc4e8274cd6623bc1e1281f07af80594485",
-      "results/03_Path_tomography.xlsx": "9e301fcfbf1247aa031bdd1ca3b713ef11d63f9d09fc4ff4e203b22f9204cf80",
-      "src/qru.py": "7b55abf4c86ea17c8411d001f3a859bff9af5d8431375418ebf8877562eda5b1",
-      "src/v5_feasibility.py": "f9b08aec6c5e4fb3ca6d8cab6915c7e59152065e6364d862cc73ca240015b193"
-    },
-    "jet_pair": "Original sample 0 reproduced, not digitized from PNG; broad Q has 257 sites.",
-    "geometry": "New exact Jacobian visualization with specified seed and parameters; not an additional data-stream experiment."
+    "inputs": [
+      "results/reference/",
+      "results/predictive/streams.json"
+    ],
+    "jet_pair": "Circuit-parameter evaluation with 257 broad inputs",
+    "geometry": "Exact Jacobian and finite parameter displacements at the stated seed"
   }
 }
