@@ -1,7 +1,7 @@
 """Small falsification experiment: Schur identity and cost-indexed QRU adaptation.
 
-Run from anywhere: python experiments/optimizer.py --output runs/v4.json
-The archived XLSX contains the predeclared independent seed 951 protocol.
+Run from anywhere: python experiments/optimizer.py --output build/runs/optimizer.json
+The reference tables use the predeclared independent seed 951 protocol.
 """
 import argparse,json,sys
 from pathlib import Path

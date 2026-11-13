@@ -13,7 +13,7 @@ EXPERIMENTS = {
     'detectability': 'detectability', 'finite-alternatives': 'finite_alternatives',
     'local-information': 'local_information', 'local-stream': 'local_stream',
     'classical-stream': 'classical_stream', 'pilot-geometry': 'pilot_geometry',
-    'reference': 'reference',
+    'reference': 'reference', 'path-geometry': 'path_geometry',
 }
 
 def run(script, args=()):
@@ -34,9 +34,10 @@ def main():
     elif args.target == 'figures':
         for script, options in [('build_main_figures.py',[]),
                                 ('build_figures.py',[]),
-                                ('build_supporting_figures.py',['--all'])]:
+                                ('build_supporting_figures.py',['--all']),
+                                ('build_dephasing_figure.py',[])]:
             run(['figures/'+script], options)
-        print('21 article figures: build/figures/ (PDF and PNG).')
+        print('22 article figures: build/figures/ (PDF and PNG).')
     else:
         if args.target == 'reference':
             run(['experiments/reference.py'],extra)
