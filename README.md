@@ -1,45 +1,81 @@
-# Hidden spectral paths and predictive identifiability in quantum data reuploading
+# QRU predictive identifiability
 
-Research code and results for the article by Léa Cassé, Bernhard Pfahringer and Albert Bifet. The study identifies attainable paths with the same present response and different controlled futures. It characterizes the complete two-layer sinusoidal path fiber, computes its exact prediction risk and tests target measurements at a fixed shot budget. An exact construction extends the mechanism to known interlayer dephasing.
+Code and data for *Hidden spectral paths and predictive identifiability in quantum data reuploading*, by Léa Cassé, Bernhard Pfahringer and Albert Bifet.
 
 ## Run
+
+Python 3.12.
 
 ```bash
 python -m pip install -r requirements.txt
 python reproduce.py checks
-python reproduce.py path-geometry
 python reproduce.py figures
 ```
 
-## Contents
-
-| Directory | Contents |
-|---|---|
-| `qru/` | Circuit and density-matrix simulators, attainable amplitudes, information, adaptation and classical controls |
-| `experiments/` | Seeded experiments with explicit protocols and JSON outputs |
-| `data/` | Sunspots/Nile observations, publication plot data, source hashes and table provenance |
-| `results/` | Reference tables, controlled streams, exact fiber/dephasing calculations and raw hardware records |
-| `figures/` | Scripts and vector PDFs for all 22 main and supporting figures |
-| `hardware/` | Optional IBM acquisition runner |
-| `tests/` | Independent circuit identities, minimax risks, shot budgets, bootstrap and hardware gates |
+Generated results go to `build/runs/`, figures to `build/figures/`. Reference results are in `results/`.
 
 ## Experiments
 
 ```bash
-python reproduce.py twins
-python reproduce.py streams
-python reproduce.py real
-python reproduce.py observability
-python reproduce.py two-qubit
-python reproduce.py optimizer
-python reproduce.py detectability
-python reproduce.py finite-alternatives
+python reproduce.py <target>
+python reproduce.py <target> --help
 ```
 
-Calculations write to `build/`. Included results and figures can be used directly.
+| Target | Calculation |
+|---|---|
+| `twins` | Present-equivalent circuits and drift responses |
+| `path-geometry` | Two-layer amplitudes and known-dephasing constructions |
+| `attainable-set` | Complete two-layer constraints and circuit reconstruction |
+| `phase-design` | Layer contrasts and phase tomography |
+| `control-design` | Layer, input and phase selection with shot bounds |
+| `depth-family` | Adaptive discrimination at increasing depth |
+| `streams` | 32 paired streams, four shots per step, horizons one and five |
+| `branch-selection` | 256 paired starts across five training modes |
+| `branch-robustness` | Two additional training targets, 128 paired starts each |
+| `hardware-noise` | Dephasing fit and held-out checks on seed-203 counts |
+| `metric-noise` | Gate-error models constrained by archived SX metrics |
+| `real` | Chronological Sunspots/Nile replay |
 
-`path-geometry` checks explicit two-layer amplitudes on 10,000 circuits and the dephasing construction on eleven channel settings. The complete-fiber and minimax statements are proved in the article.
+`depth-family` assumes known present amplitude and phase. Training results retain raw circuits and clean least-squares completions separately.
 
-`streams` uses 32 paired seeds (1300 through 1331), ten scenarios, three query policies and horizons one and five. Each controlled stream uses four target shots per step. `real` runs the chronological Sunspots/Nile replay. `figures` builds vector PDFs and 300 dpi PNGs from the included data.
+Use `python reproduce.py --help` for all targets. Experiment options, including seeds and output paths, are listed by each target's `--help`.
 
-The density-matrix model applies a specified common channel between layers. Its channel-dependent preparation assumes known dephasing. Hardware records retain the staged baseline-equivalence test and require no account to analyze. Live acquisition through `hardware/probe.py` uses a separate IBM account.
+## Files
+
+| Path | Contents |
+|---|---|
+| `qru/` | Circuit models, path geometry, inference and controls |
+| `experiments/` | Experiment entry points |
+| `results/` | Numerical results and raw hardware counts |
+| `data/` | Series, figure data, source hashes and provenance |
+| `figures/` | Figure scripts and 24 article PDFs |
+| `tests/` | Circuit identities, risks, protocols and data checks |
+| `hardware/` | IBM acquisition and offline noise analysis |
+
+## Symbolic constraints
+
+```bash
+python -m pip install -r requirements-symbolic.txt
+python reproduce.py algebraic-fiber
+```
+
+Exports the real polynomial constraints for the depth-three fiber at `(1, 2, 4)`. Installing SymPy also enables the symbolic checks in `python reproduce.py checks`.
+
+## Hardware
+
+Offline diagnostics use the included counts and require no IBM account. A calibrated replay requires an independent historical calibration snapshot and the executed bound circuits:
+
+```bash
+python hardware/calibrated_replay.py --help
+```
+
+The seed-203 archives contain mean SX/readout errors but lack T1/T2, gate durations, asymmetric readout probabilities and bound ISA circuits.
+
+For live acquisition:
+
+```bash
+python -m pip install -r hardware/requirements.txt
+python hardware/probe.py --help
+```
+
+Live acquisition requires IBM Quantum credentials.

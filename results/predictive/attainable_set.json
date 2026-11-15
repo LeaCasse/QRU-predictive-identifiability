@@ -1,0 +1,11 @@
+{
+  "seed": 20261115,
+  "circuits": 10000,
+  "maximum_modulus_residual": 4.163336342344337e-17,
+  "maximum_phase_residual": 3.496446946337351e-18,
+  "maximum_canonical_path_error": 8.38701052614411e-14,
+  "maximum_controlled_prediction_error": 1.642574964932919e-13,
+  "boundary_trials": 27,
+  "maximum_boundary_error": 1.2412670766236366e-16,
+  "scope": "Entire ideal two-layer attainable path set, including singular faces. The theorem supplies exact sufficiency."
+}

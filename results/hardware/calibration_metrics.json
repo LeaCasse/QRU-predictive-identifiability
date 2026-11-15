@@ -1,0 +1,31 @@
+{
+  "backend": "ibm_marrakesh",
+  "physical_qubit": 6,
+  "console_timestamp": "2026-09-28 13:34:13",
+  "source": "Acquisition console, backend.target measure and sx error query, archived 28 September 2026",
+  "source_columns": [
+    "physical_qubit",
+    "readout_error",
+    "sx_error"
+  ],
+  "source_row": [
+    6,
+    0.001708984375,
+    0.0001988823573863746
+  ],
+  "readout_error": 0.001708984375,
+  "sx_average_error": 0.0001988823573863746,
+  "scope": "Two pre-acquisition scalar metrics. No complete historical channel calibration or executed gate sequence.",
+  "assumptions_for_reduced_model": [
+    "sx average error maps to isotropic depolarization with shrinkage 1-2*error",
+    "eight identical sx noise channels, instantaneous ideal rz gates",
+    "symmetric common readout error equal to the reported average"
+  ],
+  "missing": [
+    "historical T1 and T2",
+    "gate durations",
+    "asymmetric readout assignment probabilities",
+    "executed bound ISA circuits",
+    "coherent and anisotropic errors"
+  ]
+}

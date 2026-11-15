@@ -1,0 +1,535 @@
+{
+  "seed": 56114,
+  "input_grid": {
+    "count": 257,
+    "range": [
+      0.0,
+      6.283185307179586
+    ]
+  },
+  "regular_witnesses": [
+    {
+      "seed": 198,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 1.521708941582556,
+          "phase": 3.146588275887948,
+          "means": [
+            -0.8985314934617783,
+            0.4016791045003044
+          ],
+          "absolute_gap": 1.3002105979620828,
+          "phase_fit_error": 4.440892098500626e-16,
+          "sufficient_shots": 15,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 3.0925052683774528,
+          "phase": 4.712388980384707,
+          "means": [
+            -0.8965252311343024,
+            0.40367725470140775
+          ],
+          "absolute_gap": 1.3002024858357102,
+          "phase_fit_error": 8.881784197001252e-16,
+          "sufficient_shots": 15,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.56352896591489
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 3.671581005680396e-14
+        }
+      ]
+    },
+    {
+      "seed": 199,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 1.030835089459151,
+          "phase": 3.1465710506480846,
+          "means": [
+            0.7796588121330159,
+            -0.9415867324617901
+          ],
+          "absolute_gap": 1.721245544594806,
+          "phase_fit_error": 6.661338147750939e-16,
+          "sufficient_shots": 9,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 2.6016314162540475,
+          "phase": 1.5707963267948972,
+          "means": [
+            -0.7797973395012496,
+            0.9414375400239446
+          ],
+          "absolute_gap": 1.7212348795251944,
+          "phase_fit_error": 6.661338147750939e-16,
+          "sufficient_shots": 9,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.83110696496823
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 4.428239507660661e-15
+        }
+      ]
+    },
+    {
+      "seed": 200,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 1.0062913968529805,
+          "phase": 3.138997041033502,
+          "means": [
+            0.7220181267745129,
+            -0.82172906468278
+          ],
+          "absolute_gap": 1.5437471914572929,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 11,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 2.5770877236478773,
+          "phase": 1.5707963267948852,
+          "means": [
+            -0.7224964769399226,
+            0.8212481143793035
+          ],
+          "absolute_gap": 1.543744591319226,
+          "phase_fit_error": 4.440892098500626e-16,
+          "sufficient_shots": 11,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.7586219187039336
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 2.1187638952563078e-14
+        }
+      ]
+    },
+    {
+      "seed": 201,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 0.0,
+          "phase": 3.153360090197396,
+          "means": [
+            0.03134549000723402,
+            -0.9899544308264282
+          ],
+          "absolute_gap": 1.0212999208336622,
+          "phase_fit_error": 8.881784197001252e-16,
+          "sufficient_shots": 23,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 1.5707963267948966,
+          "phase": 1.5707963267948926,
+          "means": [
+            -0.030730084470111108,
+            0.9905344800428315
+          ],
+          "absolute_gap": 1.0212645645129426,
+          "phase_fit_error": 2.220446049250313e-16,
+          "sufficient_shots": 23,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.43797570540268577
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 2.7425000939562482e-14
+        }
+      ]
+    },
+    {
+      "seed": 202,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 1.325359400733194,
+          "phase": 3.13227771961252,
+          "means": [
+            -0.583303546276842,
+            -0.02853229149143982
+          ],
+          "absolute_gap": 0.5547712547854022,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 78,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 6.037748381117884,
+          "phase": 4.712388980384701,
+          "means": [
+            0.5885150274207837,
+            0.03375580690677765
+          ],
+          "absolute_gap": 0.554759220514006,
+          "phase_fit_error": 1.1102230246251565e-16,
+          "sufficient_shots": 78,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.3167039318526879
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 5.00155472593633e-14
+        }
+      ]
+    },
+    {
+      "seed": 203,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 5.522330836388308,
+          "phase": 3.143457434877819,
+          "means": [
+            -0.6651161451777751,
+            0.9947396012965107
+          ],
+          "absolute_gap": 1.6598557464742858,
+          "phase_fit_error": 6.661338147750939e-16,
+          "sufficient_shots": 9,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 0.8099418560036186,
+          "phase": 1.5707963267948961,
+          "means": [
+            0.6650040671634698,
+            -0.9948502363105469
+          ],
+          "absolute_gap": 1.6598543034740167,
+          "phase_fit_error": 2.220446049250313e-16,
+          "sufficient_shots": 9,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.3993258229948826
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 3.3075159312104036e-14
+        }
+      ]
+    },
+    {
+      "seed": 204,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 1.3008157081270237,
+          "phase": 3.147235262366217,
+          "means": [
+            -0.6958666503434916,
+            0.992963844140192
+          ],
+          "absolute_gap": 1.6888304944836836,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 9,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 2.8716120349219203,
+          "phase": 4.712388980384693,
+          "means": [
+            -0.6954751089887808,
+            0.9933419427407679
+          ],
+          "absolute_gap": 1.6888170517295489,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 9,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.8272255528714438
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 2.2634392888249603e-14
+        }
+      ]
+    },
+    {
+      "seed": 205,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 0.02454369260617026,
+          "phase": 3.1535155347904396,
+          "means": [
+            0.8480913525966288,
+            -0.6001520203464104
+          ],
+          "absolute_gap": 1.4482433729430393,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 12,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 4.73693267299086,
+          "phase": 1.5707963267949245,
+          "means": [
+            0.8478848028672612,
+            -0.6003071000623545
+          ],
+          "absolute_gap": 1.4481919029296157,
+          "phase_fit_error": 8.881784197001252e-16,
+          "sufficient_shots": 12,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.7212717960814286
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 4.266284738954544e-14
+        }
+      ]
+    },
+    {
+      "seed": 206,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 0.5645049299419159,
+          "phase": 3.1481625606746366,
+          "means": [
+            -0.5345914807839887,
+            0.6214453616553526
+          ],
+          "absolute_gap": 1.1560368424393412,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 18,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 2.1353012567368124,
+          "phase": 4.7123889803846595,
+          "means": [
+            -0.5386624446963081,
+            0.6173619229524656
+          ],
+          "absolute_gap": 1.1560243676487736,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 18,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.6906884721466324
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 3.834642525395087e-14
+        }
+      ]
+    },
+    {
+      "seed": 207,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 2.5280003384355365,
+          "phase": 3.134101810914301,
+          "means": [
+            0.7007493808072649,
+            0.5333395491276867
+          ],
+          "absolute_gap": 0.16740983167957824,
+          "phase_fit_error": 8.326672684688674e-16,
+          "sufficient_shots": 856,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 4.0987966652304335,
+          "phase": 4.71238898038462,
+          "means": [
+            0.7018925220764239,
+            0.5344850388742275
+          ],
+          "absolute_gap": 0.16740748320219645,
+          "phase_fit_error": 9.159339953157541e-16,
+          "sufficient_shots": 856,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.5151289618936381
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 6.457859439213055e-14
+        }
+      ]
+    },
+    {
+      "seed": 208,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 1.521708941582556,
+          "phase": 3.1501585389494986,
+          "means": [
+            -0.9366939512768786,
+            0.6737811961368283
+          ],
+          "absolute_gap": 1.610475147413707,
+          "phase_fit_error": 6.661338147750939e-16,
+          "sufficient_shots": 10,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 3.0925052683774528,
+          "phase": 1.5707963267948972,
+          "means": [
+            0.9348676474226939,
+            -0.6755779577210475
+          ],
+          "absolute_gap": 1.6104456051437412,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 10,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.2328554779553022
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 4.663911644986933e-14
+        }
+      ]
+    },
+    {
+      "seed": 209,
+      "phase": [
+        {
+          "layer": 2,
+          "x": 2.8961557275280905,
+          "phase": 3.1350535033476863,
+          "means": [
+            0.5752939377054177,
+            -0.9236655187451855
+          ],
+          "absolute_gap": 1.4989594564506032,
+          "phase_fit_error": 4.440892098500626e-16,
+          "sufficient_shots": 11,
+          "error_probability": 0.05
+        },
+        {
+          "layer": 1,
+          "x": 1.325359400733194,
+          "phase": 1.5707963267948915,
+          "means": [
+            0.5764457608623451,
+            -0.9224976714153867
+          ],
+          "absolute_gap": 1.498943432277732,
+          "phase_fit_error": 0.0,
+          "sufficient_shots": 11,
+          "error_probability": 0.05
+        }
+      ],
+      "dephasing": [
+        {
+          "layer": 1,
+          "max_gap_at_gamma_0": 0.38522150036711145
+        },
+        {
+          "layer": 2,
+          "max_gap_at_gamma_0": 1.941612726735767e-14
+        }
+      ]
+    }
+  ],
+  "maximum_channel_path_density_error": 9.43689570931383e-16,
+  "analytic_pair": [
+    {
+      "layer": 1,
+      "x": 1.5707963267948966,
+      "phase": 1.5707963267948966,
+      "means": [
+        1.0,
+        -1.0
+      ],
+      "absolute_gap": 2.0,
+      "phase_fit_error": 4.440892098500626e-16,
+      "sufficient_shots": 1,
+      "error_probability": 0.05
+    },
+    {
+      "layer": 2,
+      "x": 0.0,
+      "phase": 3.1415926535897936,
+      "means": [
+        -1.0,
+        1.0
+      ],
+      "absolute_gap": 2.0,
+      "phase_fit_error": 0.0,
+      "sufficient_shots": 1,
+      "error_probability": 0.05
+    }
+  ],
+  "phase_scope": "Exact optimization over the phase at each finite input. Layer numbering starts at one.",
+  "shot_scope": "Known-pair sufficient independent shot counts for 5 percent worst-hypothesis error, using Hoeffding."
+}

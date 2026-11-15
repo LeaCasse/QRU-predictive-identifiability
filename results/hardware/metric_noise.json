@@ -1,0 +1,97 @@
+{
+  "model": "same small coherent rotation after every SX, ideal RZ, symmetric common readout",
+  "gate_template": "reconstructed from the QRU and gate counts, not retained executed ISA bytes",
+  "gate_infidelity": 0.0001988823573863746,
+  "readout_error": 0.001708984375,
+  "coherent_rotation_angle": 0.034545807644025664,
+  "axis_count": 4096,
+  "axes": "deterministic Fibonacci sphere, specified independently of observations",
+  "worst_ideal_reconstruction_error": 1.0547118733938987e-15,
+  "pauli_pair_gap_bound": 0.00954635315454598,
+  "bound_assumptions": "eight single-qubit stochastic Pauli errors per branch, each infidelity at most e, ideal remaining gates, common readout",
+  "coherent_samples_are_not_rigorous_envelopes": true,
+  "acquisitions": [
+    {
+      "file": "qpu_baseline.json",
+      "rows": [
+        {
+          "x": 0.0,
+          "observed_gap": 0.0458984375,
+          "coherent_grid_min": -0.24181311223641044,
+          "coherent_grid_max": 0.2599241517036444
+        },
+        {
+          "x": 0.7853981633974483,
+          "observed_gap": -0.00341796875,
+          "coherent_grid_min": -0.2031311099623296,
+          "coherent_grid_max": 0.19342463155988948
+        },
+        {
+          "x": 1.5707963267948966,
+          "observed_gap": -0.01318359375,
+          "coherent_grid_min": -0.09219751422511688,
+          "coherent_grid_max": 0.08839691006093475
+        },
+        {
+          "x": 3.141592653589793,
+          "observed_gap": -0.109130859375,
+          "coherent_grid_min": -0.2973736796766229,
+          "coherent_grid_max": 0.28097838229251565
+        },
+        {
+          "x": 4.71238898038469,
+          "observed_gap": 0.0283203125,
+          "coherent_grid_min": -0.07455923718568686,
+          "coherent_grid_max": 0.08100828297080637
+        },
+        {
+          "x": 6.283185307179586,
+          "observed_gap": 0.07763671875,
+          "coherent_grid_min": -0.24181311223640944,
+          "coherent_grid_max": 0.2599241517036456
+        }
+      ]
+    },
+    {
+      "file": "qpu_baseline_rep2.json",
+      "rows": [
+        {
+          "x": 0.0,
+          "observed_gap": 0.02392578125,
+          "coherent_grid_min": -0.24181311223641044,
+          "coherent_grid_max": 0.2599241517036444
+        },
+        {
+          "x": 0.7853981633974483,
+          "observed_gap": -0.005615234375,
+          "coherent_grid_min": -0.2031311099623296,
+          "coherent_grid_max": 0.19342463155988948
+        },
+        {
+          "x": 1.5707963267948966,
+          "observed_gap": -0.01611328125,
+          "coherent_grid_min": -0.09219751422511688,
+          "coherent_grid_max": 0.08839691006093475
+        },
+        {
+          "x": 3.141592653589793,
+          "observed_gap": -0.08984375,
+          "coherent_grid_min": -0.2973736796766229,
+          "coherent_grid_max": 0.28097838229251565
+        },
+        {
+          "x": 4.71238898038469,
+          "observed_gap": 0.049560546875,
+          "coherent_grid_min": -0.07455923718568686,
+          "coherent_grid_max": 0.08100828297080637
+        },
+        {
+          "x": 6.283185307179586,
+          "observed_gap": 0.037109375,
+          "coherent_grid_min": -0.24181311223640944,
+          "coherent_grid_max": 0.2599241517036456
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "seed": 20261114,
+  "tomography": [
+    {
+      "depth": 1,
+      "circuits": 5,
+      "settings": 3,
+      "max_amplitude_error": 2.0159397583288241e-16
+    },
+    {
+      "depth": 2,
+      "circuits": 5,
+      "settings": 9,
+      "max_amplitude_error": 2.8609792490763985e-16
+    },
+    {
+      "depth": 3,
+      "circuits": 5,
+      "settings": 27,
+      "max_amplitude_error": 3.477763656540197e-16
+    },
+    {
+      "depth": 4,
+      "circuits": 5,
+      "settings": 81,
+      "max_amplitude_error": 2.1344854238647437e-16
+    },
+    {
+      "depth": 5,
+      "circuits": 5,
+      "settings": 243,
+      "max_amplitude_error": 1.6883057536160649e-16
+    },
+    {
+      "depth": 6,
+      "circuits": 5,
+      "settings": 729,
+      "max_amplitude_error": 1.3668035872266426e-16
+    }
+  ],
+  "regular_twins": [
+    {
+      "seed": 198,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.6501093550442154
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.6501093550442154
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 2.246009718395173e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.6501093550442154
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.6501093550442154
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 199,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.8606281048322093
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.8606281048322093
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 2.3963407559615142e-15
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.8606281048322093
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.8606281048322093
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 200,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.7718748957976793
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.7718748957976793
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 1.2934784104535897e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.7718748957976793
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.7718748957976793
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 201,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.5106676385771952
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.5106676385771952
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 1.5221878142839063e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.5106676385771952
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.5106676385771952
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 202,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.2773916445283902
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.2773916445283902
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 2.5145448613019775e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.2773916445283902
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.2773916445283902
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 203,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.8299285947372691
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.8299285947372691
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 1.802266792715947e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.8299285947372691
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.8299285947372691
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 204,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.8444219686189038
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.8444219686189038
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 1.1702407025204919e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.8444219686189038
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.8444219686189038
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 205,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.7241474214782275
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.7241474214782275
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 2.210985747933911e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.7241474214782275
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.7241474214782275
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 206,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.5780246586149592
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.5780246586149592
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 2.284447432974957e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.5780246586149592
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.5780246586149592
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 207,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.08370609007847435
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.08370609007847435
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 3.4429201526088255e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.08370609007847435
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.08370609007847435
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 208,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.8052523448418192
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.8052523448418192
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 2.7109746097152388e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.8052523448418192
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.8052523448418192
+        }
+      ],
+      "tolerance": 1e-10
+    },
+    {
+      "seed": 209,
+      "minimum_layers": 1,
+      "designs": [
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.7494877403117335
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.7494877403117335
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 1.0993477963014955e-14
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 0.7494877403117335
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 0.7494877403117335
+        }
+      ],
+      "tolerance": 1e-10
+    }
+  ],
+  "sinusoidal": {
+    "minimum_layers": 1,
+    "designs": [
+      {
+        "layers": [
+          0
+        ],
+        "coefficient_norm": 0.6999999999999998
+      },
+      {
+        "layers": [
+          1
+        ],
+        "coefficient_norm": 0.6999999999999998
+      }
+    ],
+    "tested": [
+      {
+        "layers": [],
+        "coefficient_norm": 6.959723230189189e-17
+      },
+      {
+        "layers": [
+          0
+        ],
+        "coefficient_norm": 0.6999999999999998
+      },
+      {
+        "layers": [
+          1
+        ],
+        "coefficient_norm": 0.6999999999999998
+      }
+    ],
+    "tolerance": 1e-10
+  },
+  "joint_control_example": {
+    "theta_a": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "theta_b": [
+      [
+        0.0,
+        1.5707963267948966,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "alpha": [
+      0,
+      0
+    ],
+    "design": {
+      "minimum_layers": 2,
+      "designs": [
+        {
+          "layers": [
+            0,
+            1
+          ],
+          "coefficient_norm": 0.5
+        }
+      ],
+      "tested": [
+        {
+          "layers": [],
+          "coefficient_norm": 5.551115123125783e-17
+        },
+        {
+          "layers": [
+            0
+          ],
+          "coefficient_norm": 3.925231146709438e-17
+        },
+        {
+          "layers": [
+            1
+          ],
+          "coefficient_norm": 3.925231146709438e-17
+        },
+        {
+          "layers": [
+            0,
+            1
+          ],
+          "coefficient_norm": 0.5
+        }
+      ],
+      "tolerance": 1e-10
+    }
+  }
+}

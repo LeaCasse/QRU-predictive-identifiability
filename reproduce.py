@@ -14,6 +14,10 @@ EXPERIMENTS = {
     'local-information': 'local_information', 'local-stream': 'local_stream',
     'classical-stream': 'classical_stream', 'pilot-geometry': 'pilot_geometry',
     'reference': 'reference', 'path-geometry': 'path_geometry',
+    'phase-design': 'phase_design', 'branch-selection': 'branch_selection',
+    'algebraic-fiber': 'algebraic_fiber', 'hardware-noise': 'hardware/noise_diagnostic',
+    'attainable-set': 'attainable_set', 'control-design': 'control_design',
+    'depth-family': 'depth_family', 'branch-robustness': 'branch_robustness', 'metric-noise': 'hardware/metric_noise',
 }
 
 def run(script, args=()):
@@ -25,7 +29,12 @@ def run(script, args=()):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('target', choices=['checks','figures',*EXPERIMENTS])
-    args, extra = parser.parse_known_args()
+    argv = sys.argv[1:]
+    if argv and argv[0] in EXPERIMENTS:
+        args = parser.parse_args(argv[:1])
+        extra = argv[1:]
+    else:
+        args, extra = parser.parse_known_args(argv)
     if args.target in ('checks', 'figures') and extra:
         parser.error('This target takes no additional arguments.')
     if args.target == 'checks':
@@ -35,9 +44,11 @@ def main():
         for script, options in [('build_main_figures.py',[]),
                                 ('build_figures.py',[]),
                                 ('build_supporting_figures.py',['--all']),
-                                ('build_dephasing_figure.py',[])]:
+                                ('build_dephasing_figure.py',[]),
+                                ('build_branch_figure.py',[]),
+                                ('build_depth_figure.py',[])]:
             run(['figures/'+script], options)
-        print('22 article figures: build/figures/ (PDF and PNG).')
+        print('24 article figures: build/figures/ (PDF and PNG).')
     else:
         if args.target == 'reference':
             run(['experiments/reference.py'],extra)
@@ -47,7 +58,8 @@ def main():
         if args.target == 'real':
             # The real replay is independent of the controlled experiment.
             extra += ['--real-only']
-        run(['experiments/'+EXPERIMENTS[args.target]+'.py'], extra)
+        script=EXPERIMENTS[args.target]
+        run([script+'.py' if script.startswith('hardware/') else 'experiments/'+script+'.py'], extra)
 
 if __name__ == '__main__':
     main()

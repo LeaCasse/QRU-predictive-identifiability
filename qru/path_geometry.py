@@ -57,3 +57,57 @@ def fiber_risk(radius, phase, alpha_future, x, weights=None):
     a = qru_output(x, circuits['A'], alpha_future)
     b = qru_output(x, circuits['B'], alpha_future)
     return float(np.dot(weights, (a-b)**2)/4)
+
+
+def attainable_conditions(a0, a_plus, a_minus, tolerance=1e-10):
+    """Necessary and sufficient two-layer path conditions, numerically checked.
+
+    The theorem uses exact equalities. ``tolerance`` is an absolute numerical
+    threshold on their residuals; use reconstruct_attainable for a separate
+    constructive check near singular boundaries.
+    """
+    a0, a_plus, a_minus = complex(a0), complex(a_plus), complex(a_minus)
+    if not np.all(np.isfinite([a0, a_plus, a_minus])) or tolerance < 0:
+        raise ValueError('Require finite amplitudes and nonnegative tolerance.')
+    p, q, w = abs(a_plus), abs(a_minus), abs(a0)
+    total = p+q
+    modulus_residual = total**2*(w*w+4*p*q)-p*q
+    phase_residual = a0*a0*np.conj(a_plus*a_minus)+w*w*p*q
+    valid = total <= .5+tolerance and w <= .5+tolerance
+    valid = valid and abs(modulus_residual) <= tolerance and abs(phase_residual) <= tolerance
+    return dict(attainable=bool(valid),p=p,q=q,w=w,
+                modulus_residual=float(modulus_residual),phase_residual=float(abs(phase_residual)))
+
+
+def reconstruct_attainable(a0, a_plus, a_minus, tolerance=1e-9):
+    """Construct a canonical circuit for any attainable two-layer path vector.
+
+    Canonical representatives set z1=z2=0. Many original circuit parameters
+    can realize the same path vector. The constructor checks the result and
+    rejects inconsistent triples, rather than relying on residuals alone.
+    """
+    a0, a_plus, a_minus = complex(a0), complex(a_plus), complex(a_minus)
+    data=attainable_conditions(a0,a_plus,a_minus,tolerance)
+    if not data['attainable']:
+        raise ValueError('Amplitudes do not satisfy the attainable-set conditions.')
+    p,q,w=data['p'],data['q'],data['w'];total=p+q
+    if total == 0:
+        theta=np.array([[np.arcsin(min(1.,2*w)),0.,np.angle(-a0)],
+                        [np.pi/2,0.,0.]])
+    else:
+        t=np.arccos(np.clip((p-q)/total,-1.,1.))
+        u=np.arccos(np.clip(2*total,0.,1.))
+        # Determine the bias sum before the difference, including all faces.
+        if w > 1e-13:
+            b=np.angle(-a0)
+        elif p*q > 1e-26:
+            b=.5*np.angle(-a_plus*a_minus)
+        else:
+            b=np.angle(a_plus) if p>q else np.angle(-a_minus)
+        c=np.angle(a_plus)-b if p>1e-13 else b-np.angle(-a_minus)
+        theta=np.array([[t,0.,b],[u,0.,c]])
+    recovered=depth_two_amplitudes(theta)
+    error=max(abs(recovered[k]-a) for k,a in [((1,0),a0),((1,1),a_plus),((1,-1),a_minus)])
+    if error > tolerance:
+        raise ValueError('No accurate canonical reconstruction at the requested tolerance.')
+    return theta
